@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang='ja'>
+
+  <head>
+    <meta charset='UTF-8'>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <title>過去の履歴を確認する</title>
+    <link rel='stylesheet' href='./css/style_sp.css'>
+    <!-- drawer.css -->
+    <link rel="stylesheet" href="./css/drawer_custom.css">
+
+  </head>
+
+  <body class="drawer drawer--right">
+
+    <header class="l-header">
+      <a href="./A2_menu_sp.html" class="header-inner">
+        <img src="./img/title_logo_sp.png">
+        <span class="c-fs10b color-navy">代理店様専用サイト</span>
+      </a>
+
+      <!-- ハンバーガーメニューボタン -->
+      <button type="button" class="drawer-toggle drawer-hamburger">
+        <span class="sr-only">toggle navigation</span>
+        <span class="drawer-hamburger-icon"></span>
+      </button>
+
+    </header>
+
+    <!-- ハンバーガーメニュー中身 -->
+    <nav class="drawer-nav u-pt60">
+      <div class="l-menu-inner">
+        <div class="company-name c-fs16n u-ml20">SBヒューマンキャピタル株式会社</div>
+        <div class="c-fs14n u-ml20 u-mt5">
+          <span class="user-name">和田 由紀子</span> 様
+        </div>
+
+        <a href="#" class="search-link u-mt20 u-mb20">提案できる会社・プランを調べる<span class="icon-right-dir"></span></a>
+
+        <a href="#" class="c-fs16n u-ml10">└ 過去の履歴を確認する</a>
+
+        <a href="#" class="search-link u-mt20 u-mb60">応募事例・原稿事例を調べる<span class=" icon-right-dir"></span></a>
+
+        <a href="#" class="menu-button">
+          <span class="icon-users"></span>
+          アカウント管理
+        </a>
+
+        <a href="#" class="menu-button">
+          <span class="icon-lock-open-alt"></span>
+          ログアウト
+        </a>
+
+      </div>
+    </nav>
+    <section class="l-contact-history-detail-content">
+      <div class="contact-history-inner">
+        <a href="C3_contact_history_sp.html" class="icon-right-open c-fs30b"></a>
+        <p class="c-fs18b">2020.3.5 田中太郎</p>
+      </div>
+      <div class="proposal-ok-content">
+        <div class="proposal-title">
+          <div class="proposal-title-content">
+            <p>SBヒューマンキャピタル株式会社</p>
+            <p>拠点名:東海営業所</p>
+            <p>2020年3月4日 12時25分現在</p>
+            <p class="proposal-ok">提案OK</p>
+          </div>
+        </div>
+        <div class="proposal-info">
+          <div class="proposal-info-content">
+            <p class="c-fs20b u-mb15">提案情報</p>
+            <div class="u-mb15 contact-performance">
+              <p class="u-mb5">過去掲載実績</p>
+              <p class="blue"><span class="c-fs16b u-mr15">あり</span>2020年3月</p>
+            </div>
+            <div class="u-mb15 campain">
+              <p class="u-mr35 u-mb5">適応可能キャンペーン</p>
+              <ul class="blue">
+                <li class="c-fs16b u-mb5">トライアルキャンペーン</li>
+                <li class="c-fs16b u-mb5">
+                  エリアキャンペーン
+                  <p class="c-fs12n u-pt5">※本社・勤務地が規定エリアの場合のみ提案可能です。</p>
+                </li>
+              </ul>
+            </div>
+            <div class="u-mt20 u-mb15 gray">
+              <ul>
+                <li class="c-fs12n u-mb10">※業種・募集条件等によって審査対象となる可能性がございます。</li>
+                <li class="c-fs12n u-mb10">※1年以内に社名変更・拠点名変更をされた場合は旧社名・旧拠点名にて再度確認をお願いいたします。</li>
+                <li class="c-fs12n u-mb10">※掲載中・申込済の拠点と申込窓口が同一の場合は提案NGとなる可能性がございます。</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </section>
+
+      <a href="./A2_menu_sp.html" class="p-top-button">
+        <span class="icon-home"></span>
+        トップページへ
+      </a>
+
+    <footer class="l-footer-bottom u-mt15">
+      <div class="footer-inner">
+        <p class="copyright">COPYRIGHT &copy; SB Human Capital Corp. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- iScroll -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+    <!-- drawer.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+
+    <script>
+      $(function () {
+        $('.drawer').drawer();
+      });
+    </script>
+  </body>
+
+</html>

@@ -1,0 +1,190 @@
+
+/* ==============================
+	component
+================================= */
+
+//テキスト
+.c-fs10n{
+  font-size: 10px;
+  font-weight:normal;
+}
+.c-fs10b{
+  font-size: 10px;
+  font-weight:bold;
+}
+.c-fs12n{
+  font-size: 12px;
+  font-weight:normal;
+}
+.c-fs12b{
+  font-size: 12px;
+  font-weight:bold;
+}
+.c-fs13n{
+  font-size: 13px;
+  font-weight:normal;
+}
+.c-fs13b{
+  font-size: 13px;
+  font-weight:bold;
+}
+.c-fs14n{
+  font-size: 14px;
+  font-weight:normal;
+}
+.c-fs14b{
+  font-size: 14px;
+  font-weight:bold;
+}
+.c-fs15b{
+  font-size: 15px;
+  font-weight:bold;
+}
+.c-fs16n{
+  font-size: 16px;
+  font-weight:normal;
+}
+.c-fs16b{
+  font-size: 16px;
+  font-weight:bold;
+}
+.c-fs18n{
+  font-size: 18px;
+  font-weight: normal;
+}
+.c-fs18b{
+  font-size: 18px;
+  font-weight: bold;
+}
+.c-fs20b{
+  font-size: 20px;
+  font-weight: bold;
+}
+.c-fs22b{
+  font-size: 22px;
+  font-weight: bold;
+}
+.c-fs23b{
+  font-size: 23px;
+  font-weight: bold;
+}
+.c-fs24b{
+  font-size: 24px;
+  font-weight: bold;
+}
+.c-fs25b{
+  font-size: 25px;
+  font-weight: bold;
+}
+.c-fs25n{
+  font-size: 25px;
+  font-weight: normal;
+}
+.c-fs26b{
+  font-size: 26px;
+  font-weight: bold;
+}
+.c-fs30b{
+  font-size: 30px;
+  font-weight: bold;
+}
+////////////////
+.c-w100per{
+  width: 100%;
+}
+.c-w100{
+  width: 100px;
+}
+.c-w175{
+  width: 175px;
+}
+.c-w180{
+  min-width: 180px;
+  width: 180px;
+}
+.c-w220{
+  width: 220px;
+}
+.c-w250{
+  width: 250px;
+}
+.c-w320{
+  width: 320px;
+}
+.c-w450{
+  width: 450px;
+}
+.c-w520{
+  width: 520px;
+}
+
+.c-h40{
+  height: 40px;
+}
+.c-h80{
+  height: 80px;
+}
+.c-h100{
+  height: 100px;
+}
+
+////////////////
+.c-flex-left{
+  @include flex-left;
+}
+
+.color-def{
+  color: $color-def;//#666
+}
+.color-navy{
+  color: $color-navy;
+}
+
+.color-c7{
+  color: $color-c7;
+}
+
+.link-underline{
+  text-decoration: underline;
+}
+.color-dove-gray{
+  $color-dove-gray:#666666;
+}
+
+.color-orange-dark {
+  color: $color-orange-dark;
+}
+.color-limeade {
+  color: $color-limeade;
+}
+.color-white-pink{
+  color: $color-white-pink;
+}
+.color-royal-purple {
+  color: $color-royal-purple;
+}
+.color-science-blue{
+  color: $color-science-blue;
+}
+.footer-link{
+  padding-top: 34px;
+  &>.ask{
+    @include flex-center-center;
+    font-size: 16px;
+    color: $color-navy;
+    text-decoration: underline;
+    margin-bottom: 36px;
+  }
+}
+.color-white{
+  color: $color-white;
+}
+.color-speech-red {
+  color: $color-strong-red;
+}
+.link-with-icon {
+  @include link-with-icon;
+}
+
+
+

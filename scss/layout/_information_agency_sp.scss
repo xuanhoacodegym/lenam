@@ -1,0 +1,34 @@
+/* ==============================
+layout / top
+================================= */
+
+.l-information-agency{
+    @extend .c-white-shadow-rect;
+    padding: 40px 20px;
+    width: 100%;
+    height: auto;
+    img{
+        vertical-align: middle;
+    }
+    .information-agency-inner{
+        width: 100%;
+        .information-agency-content{
+            max-width: 100%;
+            height: 344px;
+            background-color: $color-white-smoke;
+            .link-1{
+                display: block;
+                padding: 15px 10px 0px 20px ;
+            }
+        }
+  
+    }
+  }
+
+  
+  
+  
+  
+  
+  
+  

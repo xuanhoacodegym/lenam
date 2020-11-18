@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang='ja'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <title>ログイン</title>
+    <link rel='stylesheet' href='./css/style_sp.css'>
+    <!-- drawer.css -->
+    <link rel="stylesheet" href="./css/drawer_custom.css">
+    
+</head>
+<body class="drawer drawer--right">
+
+  <header class="l-header">
+    <a href="./A2_menu_sp.html" class="header-inner">
+      <img src="./img/title_logo_sp.png">
+      <span class="c-fs10b color-navy">代理店様専用サイト</span>
+    </a>
+
+    <!-- ハンバーガーメニューボタン -->
+    <button type="button" class="drawer-toggle drawer-hamburger">
+      <span class="sr-only">toggle navigation</span>
+      <span class="drawer-hamburger-icon"></span>
+    </button>
+
+  </header>
+
+  <!-- ハンバーガーメニュー中身 -->
+  <nav class="drawer-nav u-pt60">
+    <div class="l-menu-inner">
+      <div class="company-name c-fs16n u-ml20">SBヒューマンキャピタル株式会社</div>
+      <div class="c-fs14n u-ml20 u-mt5">
+        <span class="user-name">和田 由紀子</span> 様
+      </div>
+
+      <a href="#" class="search-link u-mt20 u-mb20">提案できる会社・<br>キャンペーンを調べる<span class="icon-right-dir"></span></a>
+
+      <a href="#" class="c-fs16n u-ml10">└ 過去の履歴を確認する</a>
+
+      <a href="#" class="search-link u-mt20 u-mb60">応募事例・原稿事例を調べる<span class=" icon-right-dir"></span></a>
+
+      <a href="#" class="menu-button">
+        <span class="icon-users"></span>
+        アカウント管理
+      </a>
+
+      <a href="#" class="menu-button">
+        <span class="icon-lock-open-alt"></span>
+        ログアウト
+      </a>
+
+    </div>
+  </nav>
+
+  <main class="l-searchcase-content">
+    <form class="searchcase-inner">
+      <div class="p-search-header">
+        <div class="search-title">
+          <div class="">応募事例・原稿事例を調べる</div>
+          <div class="c-fs20b">検索条件の設定</div>
+        </div>
+        <div class=""></div><!-- ここは後で追加 -->
+      </div>
+
+      <a href="./B1-1_job_select_sp.html" class="searchcase-button">
+        <span>
+          <span class="c-fs30b">1 職種</span><span class="c-fs18n">を選択</span>
+        </span>
+        <span class="icon-right-open"></span>
+      </a>
+
+      <div class="selected-job color-navy u-mt15">
+        <div class="c-fs16b u-mb5">営業/営業・渉外・MR</div>
+        <div class="c-fs16n">法人向けセールス/コンサルティング営業・企画営業/渉外・代理店管理</div>
+      </div>
+
+      <a href="./B1-2_area_select_sp.html" class="searchcase-button">
+        <span>
+          <span class="c-fs30b">2 勤務地</span><span class="c-fs18n">を選択</span>
+        </span>
+        <span class="icon-right-open"></span>
+      </a>
+
+      <input class="btn-def disabled u-m0-auto u-mt40 u-mb40" type="submit" value="検索する"　disable>
+
+    </form>
+    
+  </main>
+
+  <a href="./A2_menu_sp.html" class="p-top-button">
+    <span class="icon-home"></span>
+    トップページへ
+  </a>
+
+<footer class="l-footer-bottom">
+  <div class="footer-inner">
+    <p class="copyright">COPYRIGHT &copy; SB Human Capital Corp. All Rights Reserved.</p>
+  </div>
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- iScroll -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+<!-- drawer.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+
+<script>
+  $(function() {
+      $('.drawer').drawer();
+  });
+  </script>
+</body>
+</html>

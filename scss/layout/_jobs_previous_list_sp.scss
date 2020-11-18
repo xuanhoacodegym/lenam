@@ -1,0 +1,153 @@
+/* ==============================
+layout / search_result
+================================= */
+
+.l-jobs-list-sp{
+    @extend .l-main-content;
+    width: 100%;
+  
+    .jobs-list-inner{
+      @extend .c-white-shadow-rect;
+      .jobs-list-header{
+        width: 100%;
+        height: 80px;
+        background: $color-white-smoke;
+      }
+  
+    }
+  
+  }
+
+  .list-item{
+
+    @include flex-center;
+    position: relative;
+    width: 100%;
+    min-height: 160px;
+    background: #EDF4FF;
+    padding: 15px;
+    margin-top: 15px;
+  
+    .r-wrapper{
+      width: 100%;
+      .inner-top{
+  
+        .company-info-top-1{
+          @include flex-center;
+          .info-top-1-right{
+            @include flex-right;
+            .c-fs12n{
+              margin-bottom: -3px;
+            }
+            .NumOfApp{
+              font-size: 32px;
+              font-weight: bold;
+            }
+          }
+        }
+  
+        .company-info-top-2{
+          @include flex-end-between;
+          .icon-popup{
+            font-size: 26px;
+          }
+        }
+  
+      }
+  
+      .inner-bottom{
+        display: block;
+        background: #fff;
+        width: 100%;
+        min-height: 60px;
+        padding: 10px;
+  
+        .company-info-bottom-1{
+          overflow: hidden;
+        }
+        .company-info-bottom-2{
+          @include flex-start-between;
+          overflow: hidden;
+          position: relative;
+        }
+        .bottom-info{
+          @include flex-start;
+          width: 100%;
+          margin-top: 5px;
+          .c-fs16b{
+            width: 100px;
+          }
+          .company-info{
+            max-width: calc(100% - 100px);
+          }
+        }
+        .icon-right-dir{
+          font-size: 20px;
+          &.disable{
+            opacity: 0;
+          }
+        }
+        .clickable.close{
+          height: 1.7em;
+        }
+        .clickable.open{
+          height: auto;
+          .icon-right-dir{
+            transform: rotate(90deg);
+          }
+        }
+      }
+    }
+  
+    .icon-popup{
+      width: 50px;
+      color: #A5D6FF;
+      font-size: 20px;
+      text-align: center;
+    }
+    
+  
+    .company-tag{
+      color: #fff;
+      font-size: 12px;
+      font-weight: bold;
+      padding: 3px 8px;
+      margin-right: 3px;
+      background: $color-navy;
+      border-radius:3px;
+      &.blue {
+        background: #2C7691;
+      }
+      &.red {
+        background: #FF0000;
+      }
+      &.dark-green {
+        background: #2C7691;
+      }
+      &.dark-blue {
+        background:#289DC9;
+      }
+      &.green-blue {
+        background:#00BAFF;
+      }
+    }
+  
+    &.disable{
+      background:#EFEFEF;
+      .icon-popup{
+        opacity: 0;
+      }
+    }
+  }
+
+div#company-info-1{
+  line-height: 1.5;
+}
+  
+  
+  
+  
+  
+  
+  
+  

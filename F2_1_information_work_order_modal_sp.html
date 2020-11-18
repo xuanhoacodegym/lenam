@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang='ja'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <title>ログイン</title>
+    <link rel='stylesheet' href='./css/style_sp.css'>
+    <!-- drawer.css -->
+    <link rel="stylesheet" href="./css/drawer_custom.css">
+    
+</head>
+<body class="drawer drawer--right">
+
+  <header class="l-header">
+    <a href="./A2_menu_sp.html" class="header-inner">
+      <img src="./img/title_logo_sp.png">
+      <span class="c-fs10b color-navy">代理店様専用サイト</span>
+    </a>
+
+    <!-- ハンバーガーメニューボタン -->
+    <button type="button" class="drawer-toggle drawer-hamburger">
+      <span class="sr-only">toggle navigation</span>
+      <span class="drawer-hamburger-icon"></span>
+    </button>
+
+  </header>
+
+  <!-- ハンバーガーメニュー中身 -->
+  <nav class="drawer-nav">
+    <div class="l-menu-inner">
+      <div class="blank"></div>
+
+      <div class="company-name c-fs16n u-ml20">SBヒューマンキャピタル株式会社</div>
+      <div class="c-fs14n u-ml20 u-mt5">
+        <span class="user-name">和田 由紀子</span> 様
+      </div>
+
+      <a href="#" class="search-link u-mt20 u-mb20">提案できる会社・<br>キャンペーンを調べる<span
+          class="icon-right-dir"></span></a>
+
+      <a href="#" class="c-fs16n u-ml10">└ 過去の履歴を確認する</a>
+
+      <a href="#" class="search-link u-mt10">応募数・原稿事例を調べる<span
+          class=" icon-right-dir"></span></a>
+
+      <div class="drawer-dropdown">
+        <a class="search-link u-mt10" href="#" data-toggle="dropdown" role="button" aria-expanded="false">
+          提案資料を準備する <span class="icon-right-dir"></span>
+        </a>
+
+        <div class="popup">
+          <div>
+            <a class="left" href="javascript:void(0);" class="u-mt10">キャンペーン一覧</a>
+            <div class="right">
+              <img src="img/svg_icons/icon_step.svg">
+            </div>
+          </div>
+          <div>
+            <a class="left" href="javascript:void(0);">サイトデータ</a>
+            <div class="right">
+              <img src="img/svg_icons/icon_step.svg">
+            </div>
+          </div>
+          <div>
+            <a class="left" href="javascript:void(0);" >オプション商品一覧</span></a>
+            <div class="right">
+              <img src="img/svg_icons/icon_step.svg">
+            </div>
+          </div>
+          <div>
+            <a class="left" href="javascript:void(0);">スカウト検索</a>
+            <div class="right">
+              <img src="img/svg_icons/icon_step.svg">
+            </div>
+          </div>
+          <div>
+            <a class="left" href="javascript:void(0);">仮原稿の準備</a>
+            <div class="right">
+              <img src="img/svg_icons/icon_step.svg">
+            </div>
+          </div>
+        </div>
+
+      </div>
+      
+      <div class="drawer-dropdown">
+        <a class="search-link u-mt10" href="#" data-toggle="dropdown" role="button" aria-expanded="false">
+          申込をする <span class="icon-right-dir"></span>
+        </a>
+
+        <div class="popup">
+          <div>
+            <a class="left" href="javascript:void(0);" class="u-mt10">新規のお申込み</a>
+            <div class="right">
+              <img src="img/svg_icons/icon_step.svg">
+            </div>
+          </div>
+          <div>
+            <a class="left" href="javascript:void(0);">継続・再契約のお申込み</a>
+            <div class="right">
+              <img src="img/svg_icons/icon_step.svg">
+            </div>
+          </div>
+          <div>
+            <a class="left" href="javascript:void(0);" >オプションのお申込み</span></a>
+            <div class="right">
+              <img src="img/svg_icons/icon_step.svg">
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      <a href="#" class="search-link u-mt10">取材・制作を発注する<span
+        class=" icon-right-dir"></span></a>
+
+      <div class="drawer-dropdown">
+
+        <a class="search-link u-mt10" href="#" data-toggle="dropdown" role="button" aria-expanded="false">
+          その他各種申請 <span class="icon-right-dir"></span>
+        </a>
+        <div class="popup">
+          <div>
+            <a class="left" href="javascript:void(0);" class="u-mt10">お申込み後〜掲載開始前の場合</a>
+            <div class="right">
+              <img src="img/svg_icons/icon_step.svg">
+            </div>
+          </div>
+          <div>
+            <a class="left" href="javascript:void(0);">掲載中の場合</a>
+            <div class="right">
+              <img src="img/svg_icons/icon_step.svg">
+            </div>
+          </div>
+          <div>
+            <a class="left" href="javascript:void(0);" >企業審査について</span></a>
+            <div class="right">
+              <img src="img/svg_icons/icon_step.svg">
+            </div>
+          </div>
+          <div id="border-bottom">
+            <a class="left" href="javascript:void(0);" >原稿審査について</span></a>
+            <div class="right">
+              <img src="img/svg_icons/icon_step.svg">
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="menu-button u-mt60">
+        <span class="icon-users"></span>
+        アカウント管理
+      </a>
+
+      <a href="A1_login_sp.html" class="menu-button">
+        <span class="icon-lock-open-alt"></span>
+        ログアウト
+      </a>
+      <div class="blank"></div>
+    </div>
+  </nav>
+
+
+  <main class="l-order-production-sp">
+    <div class="order-production-inner">
+        <h2 class="c-fs18b u-mb20">申込・掲載をする - 取材・制作を発注する</h2>
+        <h3 class="c-fs14n u-mb10">イーキャリアに掲載する原稿の取材・制作を承ります。</h3>
+        <img src="img/svg_icons/icon_triangle_right.svg" class="img-icon u-mr5">
+        <a href="#" class="link-underline color-navy">取材/制作発注時のご注意</a>
+        <form class="u-mt20">
+           <div class="form-top c-fs16b u-pt30">
+            取材の有無
+            <input class="" type="radio" checked name="name" id="keywordConditionType0">
+            <span class="c-fs16b" for="keywordConditionType0" id="keywordConditionType0">あり</span>
+            <input type="radio" name="name" id="keywordConditionType2">
+            <span class="c-fs16b" for="keywordConditionType2" id="keywordConditionType2">なし</span>
+            <div class="u-flex-center u-mt20">
+                <span class="c-w175 u-mr10">掲載開始予定日</span>
+                <input class="u-mr20" id="date" type="date" data-date-format="YYYY/MM/DD" value="2020-07-20">
+            </div>
+            
+            <div class="shortest-schedule u-mt30 u-mb10 c-fs16b color-dove-gray">
+                <p class="u-ml10 u-mt10 u-mb15"> 最短スケジュール （目安）</p>
+                <p class="u-ml10 u-mt10 u-mb10">取材日</span><span class="u-ml5 color-science-blue u-mr30">2020/07/10</p>
+                <p class="u-ml10 u-mt10 u-mb10">納品日</span><span class="u-ml5 color-science-blue">2020/07/17</p>
+            </div>
+           </div>
+           <div class="form-button">
+            <button class="btn-def color-white navy u-mb10 u-mt10">
+                <span class="c-fs18b">取材制作</span>
+                <span class="c-fs14b">を発注する</span>
+                <p class="c-fs10b">（外部サイト）</p>
+            </button>
+            <button class="color-white btn-def navy">
+              <span class="c-fs18b">取材なし制作</span>
+              <span class="c-fs14b">を発注する</span>
+              <p class="c-fs10b">（外部サイト）</p>
+            </button>
+        </div>
+        </form>
+        <p class="c-fs12n u-mb10 u-mt20">発注後の素材（画像・参考原稿等)送付先</p>
+        <img src="img/svg_icons/mailbox.svg" id="mailbox">
+        <a href="#" class="c-fs12n u-ml5 link-underline color-navy">sbhc_genkou@softbankhc.co.jp</a>
+       
+
+        <h2 class="c-fs30b color-navy u-mt40 u-mb10">発注の流れ</h2>
+        <div class="order-production-content">
+          <div class="main-top">
+                 <span class="c-fs30b">1</span>
+          </div>
+          <div class="main-content">
+             <span class="c-fs24b color-dove-gray">イーキャリア申込書をSBHCへ送付</span>
+          </div>
+        </div>
+
+        <div class="order-production-content u-mb20 u-mt20">
+          <div class="main-top">
+                 <span class="c-fs30b">2</span>
+          </div>
+          <div class="main-content">
+             <span class="color-dove-gray c-fs24b">「取材発注をする」または「取材なし制作を発注する」の必要項目を入力し送信</span>
+          </div>
+        </div>
+
+        <div class="order-production-content">
+          <div class="main-top">
+                 <span class="c-fs30b">3</span>
+          </div>
+          <div class="main-content">
+             <h4 class="c-fs24b color-dove-gray">取材日確定のご連絡（SBHC→営業ご担当者様）</h4>
+          </div>
+        </div>
+
+        <div class="order-production-bottom u-mt50 u-mb50">
+          <div class="bottom-left">
+              <p class="c-fs14b color-dove-gray u-mb20">取材制作関連リンク</p>
+              <div class="u-mt10">
+                <img src="img/svg_icons/icon_triangle_right.svg">
+              <a href="#" class="link-underline c-fs16n color-navy">仮原稿制作画面はこちら</a>
+              </div>
+             
+              <div class="u-mt10">
+                <img src="img/svg_icons/icon_triangle_right.svg">
+                <a href="#" class="link-underline color-navy c-fs16n">原稿内の表記ルールについて</a>
+              </div>
+          </div>
+          <div class="bottom-center">
+            <p class="c-fs14b color-dove-gray u-mb20 u-mt30">取材制作関連資料</p>
+            <div class="u-mt10">
+              <img src="img/svg_icons/icon_doc_text.svg" class="u-mb2">
+            <a href="#" class="link-underline c-fs16n u-mt10 color-navy">イーキャリア原稿入力シート</a>
+            </div>
+           
+            <div class="u-mt10">
+              <img src="img/svg_icons/icon_doc_text.svg" class="u-mb2">
+            <a href="#" class="link-underline c-fs16n u-mt10 color-navy">インタビューシート</a>
+            </div>
+            
+           <div class="u-mt10">
+            <img src="img/svg_icons/icon_doc_text.svg" class="u-mb2">
+            <a href="#" class="link-underline c-fs16n u-mt10 color-navy">事前ヒアリングシート</a>
+           </div>
+            <div class="u-mt10">
+              <img src="img/svg_icons/icon_doc_text.svg" class="u-mb2">
+              <a href="#" class="link-underline c-fs16n color-navy">取材制作の注意点早見表</a>
+            </div>
+           
+        </div>
+          <div class="main-right">
+            <p class="c-fs14b color-dove-gray u-mb20 u-mt30">イーキャリア管理画面マニュアル</p>
+            <div class="u-mt10">
+              <img src="img/svg_icons/icon_doc_text.svg" class="u-mb2">
+              <a href="#" class="link-underline c-fs16n color-navy">掲載情報管理編</a>
+            </div>
+           <div class="u-mt10">
+            <img src="img/svg_icons/icon_doc_text.svg" class="u-mb2">
+            <a href="#" class="link-underline c-fs16n color-navy">各種設定編</a>
+           </div>
+          </div>
+        </div>
+
+    </div>
+  </main>
+
+
+  <footer class="l-footer-order u-mt50">
+    <a class="toggle">
+      <span class="icon-plus u-mr20"></span>
+      <span class="c-fs16b">発注受付〆切のご案内</span>
+    </a>
+    <div class="main-order">
+      <p class="c-fs20b duration-1">発注受付〆切</p>  
+      <p class="c-fs16b duration-2 u-mt20">毎営業日17時〆切</p>
+      <p class="c-fs12n color-dove-gray u-mt30 u-pb30">17時以降受付分は、翌営業日受付分として受理されます。</p>
+    </div>
+</footer>
+
+<div class="modal js-modal">
+    <div class="modal__bg js-modal-close"></div>
+    <div class="modal_content_wrapper">
+      <a href="#" class="modal-close-button icon-cancel-circled-1"></a>
+      <div class="modal_content u-wd-632 work-order-modal">
+        <h3 class="c-fs16b u-mb20 color-dove-gray">取材/制作発注時のご注意</h3>
+        <div class="text-backward">
+          <div class="title c-fs20b">
+            発注受付について
+        </div>
+        <p class="c-fs14b color-science-blue u-mt20 u-mb10">
+            <span>発注受付は</span>
+            <span class="c-fs20b color-speech-red">毎営業日17時〆切</span>
+            です。
+        </p>
+        <p class="content c-fs14n color-dove-gray">
+            <p>17時以降受付分は、翌営業日受付分として受理されます。</p>
+            <p>オーダーフォーム送信前の取材空き枠の事前確認は受け付けておりません。</p>
+            <p> 本予約確定後はキャンセル料が発生します。また、本予約確定後の取材時間・場所・職種内容の変更・職種数の追加等の変更は受け付けておりません。場合によっては、追加料金や調整料を請求させていただきます。</p>
+        </p>
+        <p class="c-fs14b color-science-blue u-mt40 u-mb10">
+            <span>取材日程の設定は</span>
+            <span class="c-fs20b color-speech-red">発注日から3営業日以降で調整可能</span>
+            です。
+        </p>
+        <p class="content c-fs14n">
+            <p>翌営業日、翌々営業日の取材はお受けできません。</p>
+            <p>第1希望から優先して手配いたしますが、第3希望日時での手配を受け付けられない場合は取材候補日の再調整をお願いする場合がございます。</p>
+        </p>
+
+        <p class="content c-fs14b color-science-blue u-mt40">
+            <span class="c-fs14b">取材なし制作は</span>
+            <span class="c-fs20b color-speech-red">ヒアリングシート、募集要項、画像等が
+                全て揃った状態で</span>
+               <span> 受注受付となります。</span>
+        </p>
+        <p class="content c-fs14n">
+            第1希望から優先して手配いたしますが、第3希望日時での手配を受け付けられない場合は取材候補日の再調整をお願いする場合がございます。
+        </p>
+        <p class="c-fs14b color-science-blue u-mt40 u-mb10">
+            <span  class="c-fs20b color-speech-red">変更・キャンセルの場合は、</span>
+            <span>別途料金を申し受ける場合がございます。</span>
+        </p>
+        <p class="content c-fs14n">
+            オーダーフォーム送信後の取材日時、取材場所、職種数等の変更は原則受け付けられません。
+        </p>
+
+        <div class="title c-fs20b u-mt50">画像を使用する場合</div>
+        <p class="content color-science-blue u-mt20 u-mb10">
+          <span class="c-fs20b color-speech-red u-mb10">画像にフリー素材を利用する場合は、</span>
+            <span class="c-fs14b">パートナー様より素材の
+              提供をお願いします。</span>
+        </p>
+        <p class="c-fs14n color-dove-gray">
+            <p>画像のファイル形式はSBHC指定形式（GIF・JPEG・PNG形式）となります。</p>
+            <p class="content-7">取材無し制作の画像はリサイズのみ受け付けます。画像ファイル名は対象職種名で提供をお願いいたします。画像加工・デザインをご希望の場合は別途加工・デザイン料を申し受けます。</p>
+        </p>
+
+        <div class="title c-fs20b u-mt60 u-mb20">納品・納品後の修正について</div>
+        <p>制作原稿は営業ご担当者様宛に納品いたします。納品後の企業様確認、修正確認は営業ご担当者にてご対応をお願いいたします。</p>
+        <p class="content u-mt40 u-mb10 color-science-blue">
+          <span class="c-fs14b">修正は</span>
+          <span class="c-fs20b color-speech-red">初稿アップより2営業日以内のみ</span>
+          <span class="c-fs14b">受付可能です。</span>
+        </p>
+        <p class="c-fs14n color-dove-gray">
+            <p>受付可能期間後の修正は営業ご担当者様にてご対応をお願いいたします。 </p>
+            <p>初稿アップ後の画像修正については、画像差し替え、文字入れ替え程度の修正になります。</p>
+            <p>（画像の再作成、大幅なデザイン変更は別途デザイン料を申し受けます。）</p>
+        </p>
+
+        </div>
+      </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- iScroll -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+<!-- drawer.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+
+<script src="js/modal_sp.js"></script>
+
+<script>
+  $(function() {
+      $('.drawer').drawer();
+
+      $('.toggle').click(function(){
+        //クリックされた要素に隣接する要素が開いたり閉じたりする。
+        var $this = $(this);
+        $(this).next('.main-order').slideToggle("nomal"
+        ,function(){
+          var $target = $($this.children()[0]);
+          
+          if($target.hasClass("icon-minus")){
+            $target.removeClass("icon-minus").addClass("icon-plus");
+          }else if($target.hasClass("icon-plus")){
+            $target.removeClass("icon-plus").addClass("icon-minus");
+          };
+          
+        });
+    });
+
+  });
+  $(document).ready(function(){
+      $("#date").on("change", function() {
+        this.setAttribute(
+        "data-date",
+         moment(this.value, "YYYY-MM-DD")
+        .format( this.getAttribute("data-date-format") )
+    )
+    }).trigger("change")
+    });
+  </script>
+</body>
+</html>

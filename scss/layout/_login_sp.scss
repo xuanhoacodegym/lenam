@@ -1,0 +1,50 @@
+/* ==============================
+	layout / login
+================================= */
+
+.l-main-content-login{
+	@extend .c-white-shadow-rect;
+  padding:20px;
+
+  width: 100%;
+  height: auto;
+
+	.login-inner{
+		margin: 0 auto;
+  }
+  
+  .p-base-form{
+    margin-top: 20px;
+  
+    input{
+      height: 40px;
+      width: 100%;
+      padding: 0 10px;
+      margin-top: 5px;
+    }
+  }
+
+}
+
+.l-footer-bottom {
+  position: relative;
+}
+
+.login-bottom{
+  min-height: calc(100vh - 556px);
+}
+// .c-white-shadow-rect-login{
+//   @extend .c-white-shadow-rect;
+//   width: 640px;
+//   height: 300px;
+//   margin-top: 20px;
+//   padding-top: 30px;
+//   .white-inner{
+//     width: 460px;
+//     margin: 0 auto;
+//   }
+
+//   .btn-def{
+//     margin:40px auto 0 auto;
+//   }
+// }

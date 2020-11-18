@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang='ja'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <title>さらに細かい条件を追加する</title>
+    <link rel='stylesheet' href='./css/style_sp.css'>
+    
+</head>
+<body class="drawer drawer--right">
+
+  <header class="l-header-open color-navy">
+    <span class="c-fs20b">さらに細かい条件を追加する</span>
+    <a href="#">
+      <span class="icon-cancel-circled-1"></span>
+    </a>
+
+  </header>
+
+
+  <form class="l-search-window-content">
+
+    <div class="c-fs16b color-navy u-mb10">期間</div>
+
+    <div class="panel-block">
+      <input type="checkbox" id="e1" value="">
+      <label for="e1">
+        <span class="c-fs16n color-navy">過去6か月まで拡げて検索する</span>
+      </label>
+    </div>
+
+    <div class="c-fs16b color-navy u-mb10 u-mt30">業種</div>
+
+    <input class="btn-def navy c-w180" type="button" value="業種を選択">
+
+    <div class="c-fs16b color-navy u-mb10 u-mt30">雇用形態</div>
+
+    <div class="employ-status">
+
+      <div class="panel-block">
+        <input type="checkbox" id="e2" value="">
+        <label for="e2">
+          <span class="c-fs16n color-navy">正社員</span>
+        </label>
+      </div>
+      <div class="panel-block">
+        <input type="checkbox" id="e3" value="">
+        <label for="e3">
+          <span class="c-fs16n color-navy">契約社員</span>
+        </label>
+      </div>
+      <div class="panel-block">
+        <input type="checkbox" id="e4" value="">
+        <label for="e4">
+          <span class="c-fs16n color-navy">紹介予定派遣</span>
+        </label>
+      </div>
+      <div class="panel-block">
+        <input type="checkbox" id="e5" value="">
+        <label for="e5">
+          <span class="c-fs16n color-navy">派遣社員</span>
+        </label>
+      </div>
+      <div class="panel-block">
+        <input type="checkbox" id="e6" value="">
+        <label for="e6">
+          <span class="c-fs16n color-navy">パート・アルバイト</span>
+        </label>
+      </div>
+      <div class="panel-block">
+        <input type="checkbox" id="e7" value="">
+        <label for="e7">
+          <span class="c-fs16n color-navy">業務委託</span>
+        </label>
+      </div>
+      <div class="panel-block">
+        <input type="checkbox" id="e8" value="">
+        <label for="e8">
+          <span class="c-fs16n color-navy">FCオーナー</span>
+        </label>
+      </div>
+
+    </div>
+
+    <div class="c-fs16b color-navy u-mb10 u-mt30">勤務地選択の範囲</div>
+
+    <ul class="color-navy">
+      <li class="u-mr10 u-mb5">
+        <div class="panel-block">
+          <input type="radio" name="name0" value="0" id="keywordConditionType0" checked="checked"> <label class="c-fs16n" for="keywordConditionType0">指定した範囲のみ</label>
+        </div>
+      </li> 
+      <li class="u-mr10">
+        <div class="panel-block">
+          <input type="radio" name="name0" value="1" id="keywordConditionType1"> 
+          <label class="c-fs16n" for="keywordConditionType1">指定した範囲を含む</label>
+        </div>
+      </li>
+    </ul>
+
+    <div class="c-fs16b color-navy u-mb10 u-mt30">商品ランク</div>
+
+    <ul class="p-float-search-window">
+      <li class="u-mr10">
+        <div class="panel-block">
+          <input type="radio" name="name1" value="0" id="idd0" checked="checked"> <label for="idd0">すべて</label>
+        </div>
+      </li> 
+      <li class="u-mr10">
+        <div class="panel-block">
+          <input type="radio" name="name1" value="1" id="idd1"> 
+          <label for="idd1">マキシム</label>
+        </div>
+      </li>
+      <li class="u-mr10">
+        <div class="panel-block">
+          <input type="radio" name="name1" value="2" id="idd2"> 
+          <label for="idd2">ハイエンド</label>
+        </div>
+      </li>
+      <li class="u-mr10">
+        <div class="panel-block">
+          <input type="radio" name="name1" value="3" id="idd3"> 
+          <label for="idd3">スタンダード</label>
+        </div>
+      </li>
+    </ul>
+
+    <div class="c-fs16b color-navy u-mb10 u-mt30">職種未経験フラグ</div>
+
+    <ul class="p-float-search-window">
+      <li class="u-mr10">
+        <div class="panel-block">
+          <input type="radio" name="name2" value="0" id="iddd0" checked="checked"> <label for="iddd0">指定しない</label>
+        </div>
+      </li> 
+      <li class="u-mr10">
+        <div class="panel-block">
+          <input type="radio" name="name2" value="1" id="iddd1"> 
+          <label for="iddd1">設定あり</label>
+        </div>
+      </li>
+      <li class="u-mr10">
+        <div class="panel-block">
+          <input type="radio" name="name2" value="2" id="iddd2"> 
+          <label for="iddd2">設定なし</label>
+        </div>
+      </li>
+    </ul>
+
+    <div class="c-fs16b color-navy u-mb10 u-mt30">年齢　<span class="c-fs16n color-def">※半角数字</span></div>
+
+    <input type="text" name="hoge" placeholder="" class="c-w100 c-h40" pattern="^[0-9A-Za-z]+$"><span class="color-navy"> 歳以下</span>
+
+
+    <div class="c-fs16b color-navy u-mb10 u-mt30">年収　<span class="c-fs16n color-def">※半角数字</span></div>
+
+    <input type="text" name="hoge" placeholder="" class="c-w100 c-h40" pattern="^[0-9A-Za-z]+$"><span class="color-navy"> 万円～</span>
+    <input type="text" name="hoge" placeholder="" class="c-w100 c-h40" pattern="^[0-9A-Za-z]+$"><span class="color-navy"> 万円</span>
+
+    <div class="c-fs16b color-navy u-mb10 u-mt30">フリーワード</div>
+
+    <input type="text" name="hoge" placeholder="" class="c-w100per c-h40 u-mb10">
+    <span class="c-fs16n">※検索できるのは経験・スキル・資格（必須・歓迎）です。</span>
+
+    <input class="btn-def navy u-m0-auto u-mt30" type="submit" value="条件を追加して検索する">
+
+  </form>
+
+  <a href="#" class="p-close-button u-mb30">
+    <span class="icon-cancel-circled-1"></span>
+    <span>閉じる</span>
+  </a>
+
+
+</body>
+</html>

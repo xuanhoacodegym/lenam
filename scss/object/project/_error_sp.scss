@@ -1,0 +1,21 @@
+
+/* ==============================
+	error
+================================= */
+
+.p-error-text{
+	width: 90%;
+	color: #D50000;
+	background: #FCF6F5;
+	padding: 10px;
+	border: solid 1px #fff;
+	margin: 0 auto;
+}
+
+input[type="text"]
+,input[type="email"]
+,input[type="password"]{
+	&.p-error{
+		background: #FFE7E3;
+	}
+}

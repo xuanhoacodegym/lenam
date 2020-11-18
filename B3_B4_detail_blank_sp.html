@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang='ja'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <title>ログイン</title>
+    <link rel='stylesheet' href='./css/style_sp.css'>
+    <!-- drawer.css -->
+    <link rel="stylesheet" href="./css/drawer_custom.css">
+    
+</head>
+<body class="drawer drawer--right">
+  <header class="l-header">
+    <a href="./A2_menu_sp.html" class="header-inner">
+      <img src="./img/title_logo_sp.png">
+      <span class="c-fs10b color-navy">代理店様専用サイト</span>
+    </a>
+
+    <!-- ハンバーガーメニューボタン -->
+    <button type="button" class="drawer-toggle drawer-hamburger">
+      <span class="sr-only">toggle navigation</span>
+      <span class="drawer-hamburger-icon"></span>
+    </button>
+
+  </header>
+
+  <!-- ハンバーガーメニュー中身 -->
+  <nav class="drawer-nav u-pt60">
+    <div class="l-menu-inner">
+      <div class="company-name c-fs16n u-ml20">SBヒューマンキャピタル株式会社</div>
+      <div class="c-fs14n u-ml20 u-mt5">
+        <span class="user-name">和田 由紀子</span> 様
+      </div>
+
+      <a href="#" class="search-link u-mt20 u-mb20">提案できる会社・<br>キャンペーンを調べる<span class="icon-right-dir"></span></a>
+
+      <a href="#" class="c-fs16n u-ml10">└ 過去の履歴を確認する</a>
+
+      <a href="./B1_search_case_sp.html" class="search-link u-mt20 u-mb60">応募事例・原稿事例を調べる<span class=" icon-right-dir"></span></a>
+
+      <a href="#" class="menu-button">
+        <span class="icon-users"></span>
+        アカウント管理
+      </a>
+
+      <a href="#" class="menu-button">
+        <span class="icon-lock-open-alt"></span>
+        ログアウト
+      </a>
+
+    </div>
+  </nav>
+
+  <main class="c-white-shadow-rect" style="min-height: 300px;">
+
+  </main>
+
+<footer class="l-footer-bottom">
+  <div class="footer-inner">
+    <p class="copyright">COPYRIGHT &copy; SB Human Capital Corp. All Rights Reserved.</p>
+  </div>
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- iScroll -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+<!-- drawer.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+
+<script>
+  $(function() {
+      $('.drawer').drawer();
+  });
+  </script>
+</body>
+</html>

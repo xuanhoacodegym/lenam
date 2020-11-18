@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang='ja'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <title>ログイン</title>
+    <link rel='stylesheet' href='./css/style_sp.css'>
+    <!-- drawer.css -->
+    <link rel="stylesheet" href="./css/drawer_custom.css">
+    
+</head>
+<body class="drawer drawer--right">
+
+      <!-- ハンバーガーメニュー中身 -->
+      <nav class="drawer-nav">
+        <div class="l-menu-inner">
+          <div class="blank"></div>
+  
+          <div class="company-name c-fs16n u-ml20">SBヒューマンキャピタル株式会社</div>
+          <div class="c-fs14n u-ml20 u-mt5">
+            <span class="user-name">和田 由紀子</span> 様
+          </div>
+  
+          <a href="#" class="search-link u-mt20 u-mb20">提案できる会社・<br>キャンペーンを調べる<span
+              class="icon-right-dir"></span></a>
+  
+          <a href="#" class="c-fs16n u-ml10">└ 過去の履歴を確認する</a>
+  
+          <a href="#" class="search-link u-mt10">応募数・原稿事例を調べる<span
+              class=" icon-right-dir"></span></a>
+  
+          <div class="drawer-dropdown">
+            <a class="search-link u-mt10" href="#" data-toggle="dropdown" role="button" aria-expanded="false">
+              提案資料を準備する <span class="icon-right-dir"></span>
+            </a>
+    
+            <div class="popup">
+              <div>
+                <a class="left" href="javascript:void(0);" class="u-mt10">キャンペーン一覧</a>
+                <div class="right">
+                  <img src="img/svg_icons/icon_step.svg">
+                </div>
+              </div>
+              <div>
+                <a class="left" href="javascript:void(0);">サイトデータ</a>
+                <div class="right">
+                  <img src="img/svg_icons/icon_step.svg">
+                </div>
+              </div>
+              <div>
+                <a class="left" href="javascript:void(0);" >オプション商品一覧</span></a>
+                <div class="right">
+                  <img src="img/svg_icons/icon_step.svg">
+                </div>
+              </div>
+              <div>
+                <a class="left" href="javascript:void(0);">スカウト検索</a>
+                <div class="right">
+                  <img src="img/svg_icons/icon_step.svg">
+                </div>
+              </div>
+              <div>
+                <a class="left" href="javascript:void(0);">仮原稿の準備</a>
+                <div class="right">
+                  <img src="img/svg_icons/icon_step.svg">
+                </div>
+              </div>
+            </div>
+  
+          </div>
+          
+          <div class="drawer-dropdown">
+            <a class="search-link u-mt10" href="#" data-toggle="dropdown" role="button" aria-expanded="false">
+              申込をする <span class="icon-right-dir"></span>
+            </a>
+    
+            <div class="popup">
+              <div>
+                <a class="left" href="javascript:void(0);" class="u-mt10">新規のお申込み</a>
+                <div class="right">
+                  <img src="img/svg_icons/icon_step.svg">
+                </div>
+              </div>
+              <div>
+                <a class="left" href="javascript:void(0);">継続・再契約のお申込み</a>
+                <div class="right">
+                  <img src="img/svg_icons/icon_step.svg">
+                </div>
+              </div>
+              <div>
+                <a class="left" href="javascript:void(0);" >オプションのお申込み</span></a>
+                <div class="right">
+                  <img src="img/svg_icons/icon_step.svg">
+                </div>
+              </div>
+            </div>
+          </div>
+         
+  
+          <a href="#" class="search-link u-mt10">取材・制作を発注する<span
+            class=" icon-right-dir"></span></a>
+  
+          <div class="drawer-dropdown">
+  
+            <a class="search-link u-mt10" href="#" data-toggle="dropdown" role="button" aria-expanded="false">
+              その他各種申請 <span class="icon-right-dir"></span>
+            </a>
+            <div class="popup">
+              <div>
+                <a class="left" href="javascript:void(0);" class="u-mt10">お申込み後〜掲載開始前の場合</a>
+                <div class="right">
+                  <img src="img/svg_icons/icon_step.svg">
+                </div>
+              </div>
+              <div>
+                <a class="left" href="javascript:void(0);">掲載中の場合</a>
+                <div class="right">
+                  <img src="img/svg_icons/icon_step.svg">
+                </div>
+              </div>
+              <div>
+                <a class="left" href="javascript:void(0);" >企業審査について</span></a>
+                <div class="right">
+                  <img src="img/svg_icons/icon_step.svg">
+                </div>
+              </div>
+              <div id="border-bottom">
+                <a class="left" href="javascript:void(0);" >原稿審査について</span></a>
+                <div class="right">
+                  <img src="img/svg_icons/icon_step.svg">
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="menu-button u-mt60">
+            <span class="icon-users"></span>
+            アカウント管理
+          </a>
+  
+          <a href="A1_login_sp.html" class="menu-button">
+            <span class="icon-lock-open-alt"></span>
+            ログアウト
+          </a>
+          <div class="blank"></div>
+        </div>
+      </nav>
+
+  <main class="l-jobs-list-sp">
+    <form class="jobs-list-inner">
+      <div class="jobs-list-header u-pt15">
+            <a href="#" class="c-fs30b u-ml20">
+              <img src="img/svg_icons/icon_left_previous.svg">
+              <span class="c-fs18b u-ml10 color-dove-gray">戻る</span>
+            </a>
+      </div>
+      <h4 class="c-fs16n u-ml20 u-mt30 u-mb30">○○の掲載事例を表示しています</h4>
+
+      <div class="jobs-list">
+        <a class="list-item" href="#">
+          <div class="r-wrapper">
+            <div class="inner-top">
+
+              <div class="company-info-top-1 u-mb10">
+                <div class="info-top-1-left">
+                  <span class="company-tags">
+                    <span class="company-tag blue">スタンダード</span>
+                    <span class="company-tag red">未経験可</span>
+                  </span>
+
+                </div>
+                <div class="info-top-1-right color-navy">
+                  <div>
+                    <div class="c-fs10n">4週あたり</div>
+                    <div class="c-fs16b">応募数</div>
+                  </div>
+                  <div class="NumOfApp u-ml5">214.2</div>
+                </div>
+              </div>
+
+              <div class="company-info-top-2 u-mb10 color-navy">
+                <div class="info-top-2-left u-mr5 c-fs18b">
+                  <div class=" color-navy u-mb5">
+                    <span class="c-fs16b">業種：交通・運輸・倉庫</span>
+                  </div>
+                  <div class="c-fs18b">ドライバー（物流）</div>
+                </div>
+                <div class="info-top-2-right icon-popup">
+                </div>
+              </div>
+
+            </div>
+            <div class="inner-bottom">
+              <span class="color-navy">
+                <span class="c-fs14n">PV数 ：</span><span class="c-fs16b">25235</span>
+                <span class="c-fs14n u-ml10">スカウト応募数 ：</span><span class="c-fs16b">118.2</span>
+              </span>
+
+              <div class="company-info-bottom-1">
+                <div class="bottom-info u-mt10">
+                  <span class="c-fs16b">雇用形態 ：</span><span class="company-info">パート・アルバイト</span>
+                </div>
+                <div class="bottom-info">
+                  <span class="c-fs16b">従業員数 ：</span><span class="company-info">501〜1000人</span>
+                </div>
+                <div class="bottom-info">
+                 <span class="c-fs16b">給与 ：</span><span class="company-info">1000〜1099万</span>
+                </div>
+                <div class="bottom-info">
+                  <span class="c-fs16b">年齢 ：</span><span class="company-info">〜35歳</span>
+                </div>
+              </div>
+              <div class="company-info-bottom-2 clickable open">
+                <div class="bottom-info">
+                  <span class="c-fs16b">勤務地 ：</span>
+                  <div class="company-info" id="company-info-1"> 東京都　神奈川県　埼玉県 <br>静岡県　愛知県　京都府<br>大阪府　兵庫県
+                    奈良県<br>和歌山県　鳥取県　島根県<br>岡山県</div>
+                </div>
+                <div class="icon-right-dir u-mt5 u-mr5 color-navy">
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </a>
+
+        <div class="list-item disable">
+          <div class="r-wrapper">
+            <div class="inner-top">
+
+              <div class="company-info-top-1 u-mb10">
+                <div class="info-top-1-left">
+                  <span class="company-tags">
+                    <span class="company-tag dark-blue">マキシマム</span>
+                  </span>
+
+                </div>
+                <div class="info-top-1-right color-navy">
+                  <div>
+                    <div class="c-fs10n">4週あたり</div>
+                    <div class="c-fs16b">応募数</div>
+                  </div>
+                  <div class="NumOfApp u-ml5">180.0</div>
+                </div>
+              </div>
+
+              <div class="company-info-top-2 u-mb10 color-navy">
+                <div class="info-top-2-left u-mr5 c-fs18b">
+                  <div class=" color-navy u-mb5">
+                    <span class="c-fs14b">業種：交通・運輸・倉庫</span>
+                  </div>
+                  <div class="c-fs18b">フライトアテンダント（CA・FA）・グランドスタッフ</div>
+                </div>
+                <div class="info-top-2-right icon-popup">
+                </div>
+              </div>
+
+            </div>
+            <div class="inner-bottom">
+              <span class="color-navy">
+                <span class="c-fs14n">PV数 ：</span><span class="c-fs16b">18295</span>
+                <span class="c-fs14n u-ml10">スカウト応募数 ：</span><span class="c-fs16b">98.3</span>
+              </span>
+
+              <div class="company-info-bottom-1">
+                <div class="bottom-info u-mt10">
+                  <span class="c-fs16b">雇用形態 ：</span><span class="company-info">パート・アルバイト</span>
+                </div>
+                <div class="bottom-info">
+                  <span class="c-fs16b">従業員数 ：</span><span class="company-info">501〜1000人</span>
+                </div>
+                <div class="bottom-info">
+                 <span class="c-fs16b">給与 ：</span><span class="company-info">1000〜1099万</span>
+                </div>
+                <div class="bottom-info">
+                  <span class="c-fs16b">年齢 ：</span><span class="company-info">〜35歳</span>
+                </div>
+              </div>
+              <div class="company-info-bottom-2">
+                <div class="bottom-info">
+                  <span class="c-fs16b">勤務地 ：</span>
+                  <div class="company-info">神奈川県</div>
+                </div>
+                <div class="icon-right-dir u-mt5 u-mr5 color-navy disable">
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <a class="list-item" href="#">
+          <div class="r-wrapper">
+            <div class="inner-top">
+
+              <div class="company-info-top-1 u-mb10">
+                <div class="info-top-1-left">
+                  <span class="company-tags">
+                    <span class="company-tag dark-green">スタンダード</span>
+                  </span>
+
+                </div>
+                <div class="info-top-1-right color-navy">
+                  <div>
+                    <div class="c-fs10n">4週あたり</div>
+                    <div class="c-fs16b">応募数</div>
+                  </div>
+                  <div class="NumOfApp u-ml5">100.3</div>
+                </div>
+              </div>
+
+              <div class="company-info-top-2 u-mb10 color-navy">
+                <div class="info-top-2-left u-mr5 c-fs18b">
+                  <div class=" color-navy u-mb5">
+                    <span class="c-fs14b">業種：交通・運輸・倉庫</span>
+                  </div>
+                  <div class="c-fs18b">ドライバー（物流）</div>
+                </div>
+                <div class="info-top-2-right icon-popup">
+                </div>
+              </div>
+
+            </div>
+            <div class="inner-bottom">
+              <span class="color-navy">
+                <span class="c-fs14n">PV数 ：</span><span class="c-fs16b">16192</span>
+                <span class="c-fs14n u-ml10">スカウト応募数 ：</span><span class="c-fs16b"></span>
+              </span>
+
+              <div class="company-info-bottom-1">
+                <div class="bottom-info u-mt10">
+                  <span class="c-fs16b">雇用形態 ：</span><span class="company-info">パート・アルバイト</span>
+                </div>
+                <div class="bottom-info">
+                  <span class="c-fs16b">従業員数 ：</span><span class="company-info">501〜1000人</span>
+                </div>
+                <div class="bottom-info">
+                 <span class="c-fs16b">給与 ：</span><span class="company-info">1000〜1099万</span>
+                </div>
+                <div class="bottom-info">
+                  <span class="c-fs16b">年齢 ：</span><span class="company-info">〜35歳</span>
+                </div>
+              </div>
+              <div class="company-info-bottom-2">
+                <div class="bottom-info">
+                  <span class="c-fs16b">勤務地 ：</span>
+                  <div class="company-info">神奈川県</div>
+                </div>
+                <div class="icon-right-dir u-mt5 u-mr5 color-navy disable">
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </a>
+
+        <a class="list-item" href="#">
+          <div class="r-wrapper">
+            <div class="inner-top">
+
+              <div class="company-info-top-1 u-mb10">
+                <div class="info-top-1-left">
+                  <span class="company-tags">
+                    <span class="company-tag green-blue">ハイエンド</span>
+                  </span>
+
+                </div>
+                <div class="info-top-1-right color-navy">
+                  <div>
+                    <div class="c-fs10n">4週あたり</div>
+                    <div class="c-fs16b">応募数</div>
+                  </div>
+                  <div class="NumOfApp u-ml5">65.3</div>
+                </div>
+              </div>
+
+              <div class="company-info-top-2 u-mb10 color-navy">
+                <div class="info-top-2-left u-mr5 c-fs18b">
+                  <div class=" color-navy u-mb5">
+                    <span class="c-fs14b">業種：インターネット・ <strong>Web</strong> サービス</span>
+                  </div>
+                  <div class="c-fs18b">
+                    ゲームプランナー・ディレクター・プロ <br>
+                    デューサー（ブラウザ・オンライン・ <br>
+                    ネイティブアプリ）
+                  </div>
+                </div>
+                <div class="info-top-2-right icon-popup">
+                </div>
+              </div>
+
+            </div>
+            <div class="inner-bottom">
+              <span class="color-navy">
+                <span class="c-fs16n">PV数 ：</span><span class="c-fs16b">11025</span>
+                <span class="c-fs16n u-ml10">スカウト応募数 ：</span><span class="c-fs16b color-navy">41.9</span>
+              </span>
+
+              <div class="company-info-bottom-1">
+                <div class="bottom-info u-mt10">
+                  <span class="c-fs16b">雇用形態 ：</span><span class="company-info">パート・アルバイト</span>
+                </div>
+                <div class="bottom-info">
+                  <span class="c-fs16b">従業員数 ：</span><span class="company-info">501〜1000人</span>
+                </div>
+                <div class="bottom-info">
+                 <span class="c-fs16b">給与 ：</span><span class="company-info">1000〜1099万</span>
+                </div>
+                <div class="bottom-info">
+                  <span class="c-fs16b">年齢 ：</span><span class="company-info">〜35歳</span>
+                </div>
+              </div>
+              <div class="company-info-bottom-2 clickable close">
+                <div class="bottom-info">
+                  <span class="c-fs16b">勤務地 ：</span>
+                  <div class="company-info">神奈川県 </div>
+                </div>
+                
+              </div>
+
+            </div>
+          </div>
+        </a>
+
+        <div class="list-item disable">
+          <div class="r-wrapper">
+            <div class="inner-top">
+
+              <div class="company-info-top-1 u-mb10">
+                <div class="info-top-1-left">
+                  <span class="company-tags">
+                    <span class="company-tag dark-green">スタンダード</span>
+                    <span class="company-tag red">スタンダード</span>
+                  </span>
+
+                </div>
+                <div class="info-top-1-right color-navy">
+                  <div>
+                    <div class="c-fs10n">4週あたり</div>
+                    <div class="c-fs16b">応募数</div>
+                  </div>
+                  <div class="NumOfApp u-ml5">21.8</div>
+                </div>
+              </div>
+
+              <div class="company-info-top-2 u-mb10 color-navy">
+                <div class="info-top-2-left u-mr5 c-fs18b">
+                  <div class=" color-navy u-mb5">
+                    <span class="c-fs14b">業種：</span> <span>ホテル</span>
+                  </div>
+                  <div class="c-fs18b">ホール・フロアスタッフ</div>
+                </div>
+                <div class="info-top-2-right icon-popup">
+                </div>
+              </div>
+
+            </div>
+            <div class="inner-bottom">
+              <span class="color-navy">
+                <span class="c-fs16n">PV数：</span><span class="c-fs16b">9925</span>
+                <span class="c-fs16n u-ml10">スカウト応募数：</span><span class="c-fs16b color-navy">10.1</span>
+              </span>
+
+              <div class="company-info-bottom-1">
+                <div class="bottom-info u-mt10">
+                  <span class="c-fs16b">雇用形態：</span><span class="company-info">パート・アルバイト</span>
+                </div>
+                <div class="bottom-info">
+                  <span class="c-fs16b">従業員数：</span><span class="company-info">501〜1000人</span>
+                </div>
+                <div class="bottom-info">
+                 <span class="c-fs16b">給与：</span><span class="company-info">1000〜1099万</span>
+                </div>
+                <div class="bottom-info">
+                  <span class="c-fs16b">年齢：</span><span class="company-info">〜35歳</span>
+                </div>
+              </div>
+              <div class="company-info-bottom-2">
+                <div class="bottom-info">
+                  <span class="c-fs16b">勤務地：</span>
+                  <div class="company-info">神奈川県</div>
+                </div>
+                <div class="icon-right-dir u-mt5 u-mr5 color-navy disable">
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <a class="list-item" href="#">
+          <div class="r-wrapper">
+            <div class="inner-top">
+
+              <div class="company-info-top-1 u-mb10">
+                <div class="info-top-1-left">
+                  <span class="company-tags">
+                    <span class="company-tag blue">スタンダード</span>
+                    <span class="company-tag red">未経験可</span>
+                  </span>
+
+                </div>
+                <div class="info-top-1-right color-navy">
+                  <div>
+                    <div class="c-fs10n">4週あたり</div>
+                    <div class="c-fs16b">応募数</div>
+                  </div>
+                  <div class="NumOfApp u-ml5">5.8</div>
+                </div>
+              </div>
+
+              <div class="company-info-top-2 u-mb10 color-navy">
+                <div class="info-top-2-left u-mr5 c-fs18b">
+                  <div class=" color-navy u-mb5">
+                    <span class="c-fs14b">業種：</span> <span>ホテル</span>
+                  </div>
+                  <div class="c-fs18b">
+                    ホール・フロアスタッフ
+                  </div>
+                </div>
+                <div class="info-top-2-right icon-popup">
+                </div>
+              </div>
+
+            </div>
+            <div class="inner-bottom">
+              <span class="color-navy">
+                <span class="c-fs16n">PV数：</span><span class="c-fs16b">2201</span>
+                <span class="c-fs16n u-ml10">スカウト応募数：</span><span class="c-fs16b">3.2</span>
+              </span>
+
+              <div class="company-info-bottom-1">
+                <div class="bottom-info u-mt10">
+                  <span class="c-fs16b">雇用形態：</span><span class="company-info">パート・アルバイト</span>
+                </div>
+                <div class="bottom-info">
+                  <span class="c-fs16b">従業員数：</span><span class="company-info">501〜1000人</span>
+                </div>
+                <div class="bottom-info">
+                 <span class="c-fs16b">給与：</span><span class="company-info">1000〜1099万</span>
+                </div>
+                <div class="bottom-info">
+                  <span class="c-fs16b">年齢：</span><span class="company-info">〜35歳</span>
+                </div>
+              </div>
+              <div class="company-info-bottom-2 clickable close">
+                <div class="bottom-info">
+                  <span class="c-fs16b">勤務地：</span>
+                  <div class="company-info">神奈川県</div>
+                </div>
+                
+              </div>
+
+            </div>
+          </div>
+        </a>
+        <a class="list-item" href="#">
+          <div class="r-wrapper">
+            <div class="inner-top">
+
+              <div class="company-info-top-1 u-mb10">
+                <div class="info-top-1-left">
+                  <span class="company-tags">
+                    <span class="company-tag blue">スタンダード</span>
+                    <span class="company-tag red">未経験可</span>
+                  </span>
+
+                </div>
+                <div class="info-top-1-right color-navy">
+                  <div>
+                    <div class="c-fs10n">4週あたり</div>
+                    <div class="c-fs16b">応募数</div>
+                  </div>
+                  <div class="NumOfApp u-ml5">2.0</div>
+                </div>
+              </div>
+
+              <div class="company-info-top-2 u-mb10 color-navy">
+                <div class="info-top-2-left u-mr5 c-fs18b">
+                  <div class=" color-navy u-mb5">
+                    <span class="c-fs14b">業種：交通・運輸・倉庫</span>
+                  </div>
+                  <div class="c-fs18b">
+                    ドライバー（物流）
+                  </div>
+                </div>
+                <div class="info-top-2-right icon-popup">
+                </div>
+              </div>
+
+            </div>
+            <div class="inner-bottom">
+              <span class="color-navy">
+                <span class="c-fs16n">PV数：</span><span class="c-fs16b">900</span>
+                <span class="c-fs16n u-ml10">スカウト応募数：</span><span class="c-fs16b">2.0</span>
+              </span>
+
+              <div class="company-info-bottom-1">
+                <div class="bottom-info u-mt10">
+                  <span class="c-fs16b">雇用形態：</span><span class="company-info">パート・アルバイト</span>
+                </div>
+                <div class="bottom-info">
+                  <span class="c-fs16b">従業員数：</span><span class="company-info">501〜1000人</span>
+                </div>
+                <div class="bottom-info">
+                 <span class="c-fs16b">給与：</span><span class="company-info">1000〜1099万</span>
+                </div>
+                <div class="bottom-info">
+                  <span class="c-fs16b">年齢：</span><span class="company-info">〜35歳</span>
+                </div>
+              </div>
+              <div class="company-info-bottom-2 clickable close">
+                <div class="bottom-info">
+                  <span class="c-fs16b">勤務地：</span>
+                  <div class="company-info">神奈川県</div>
+                </div>
+                
+              </div>
+
+            </div>
+          </div>
+        </a>
+
+     
+
+      </div>
+
+
+      <div class="p-bottom-fixed-area">
+        <input class="btn-def navy u-m0-auto" type="button" value="PC版のURLを送る">
+      </div>
+
+    </form>
+    
+  </main>
+  <div class="u-ta-center u-mt50">
+    <span class="icon-help-circled color-c7"></span>
+    <span class="c-fs16n color-navy link-underline">この画面について</span>
+  </div>
+  <a href="./A2_menu_sp.html" class="p-top-button">
+    <span class="icon-home"></span>
+    トップページへ
+  </a>
+  <footer class="l-footer">
+    <div class="footer-inner">
+      <p class="copyright">COPYRIGHT &copy; SB Human Capital Corp. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- iScroll -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+<!-- drawer.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+
+<script src="js/modal_sp.js"></script>
+
+<script>
+  $(function() {
+      $('.drawer').drawer();
+      $('.clickable').on('click', function(e){//クリックできる場合
+
+        //伝播をストップ
+        e.stopPropagation();
+        e.preventDefault();
+
+        var $this = $(this)
+        ;
+
+        if($this.hasClass("close")){
+          $this
+            .removeClass("close")
+            .addClass("open")
+            ;
+        }else if($this.hasClass("open")){
+          $this
+            .removeClass("open")
+            .addClass("close")
+            ;
+        }
+      });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38">
+  <g id="Group_920" data-name="Group 920" transform="translate(-316 -357)">
+    <g id="Rectangle_3407" data-name="Rectangle 3407" transform="translate(316 357)" fill="#7aad47" stroke="#fff" stroke-width="2">
+      <rect width="38" height="38" rx="3" stroke="none"/>
+      <rect x="1" y="1" width="36" height="36" rx="2" fill="none"/>
+    </g>
+    <text id="全国" transform="translate(325.26 387.896) rotate(-30)" fill="#fff" font-size="14" font-family="Meiryo-Bold, Meiryo" font-weight="700"><tspan x="0" y="0">全国</tspan></text>
+  </g>
+</svg>

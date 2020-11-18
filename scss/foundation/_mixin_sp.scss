@@ -1,0 +1,231 @@
+@charset "utf-8";
+//mixin
+
+$base-content-width:966px;
+
+//font-family
+@mixin min{
+  font-family: "Hiragino Sans W3",
+  "Hiragino Kaku Gothic ProN",
+  "ヒラギノ角ゴ ProN W3",
+  "メイリオ",
+  Meiryo,
+  "ＭＳ Ｐゴシック",
+  "MS PGothic",
+  sans-serif;
+}
+
+//icon
+
+//color
+//base
+$color-def:#666;
+$color-c7:#c7c7c7;
+$color-f7:#f7f7f7;
+
+// primary
+$color-blue:#256DBA;
+$color-light-blue:#6795E3;
+$color-navy:#083B92;
+$color-red:#D80E3A;
+$color-purple:#6554C0;
+$color-cyaan:#019FBA;
+$color-gray:#EBEDEF;
+$color-border:#C3C3C3;
+$color-error:#FF0000;
+$color-white-smoke: #f5f5f5;
+$color-pelorous:#289DC9;
+$color-white:#ffffff;
+$color-dodger-blue: #0093FF;
+$color-orange-dark: #FF8F0E;
+$color-dove-gray:#666666;
+$color-white-smoke:#F0F0F0;
+$color-pink-swan: #B2B2B2;
+$color-dark-red: #8d0a0a;
+$color-require-red: #D80E3A;
+$color-light-red: #faf2f2;
+$color-blue24: #2499f8;
+$color-light-blue-d1: #e1f0fa;
+$color-limeade: #65A336;
+$color-light-blue-d2: #EAF6FF;
+$color-alice-blue: #EDF4FF;
+$color-science-blue:#0868C9;
+$color-white : #FFF;
+$color-pippin : #FFE7E3;
+$color-royal-purple: #7734B1;
+$color-white-pink:#FCF6F5;
+$color-pale-blue:#EDF4FF;
+$color-strong-red:#D50000;
+$color-promenade: #F7F7E5;
+//flex set
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin flex-left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+@mixin flex-left-top {
+  display: flex;
+  justify-content: flex-start;
+}
+
+@mixin flex-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+@mixin flex-start {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+@mixin flex-start-between {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+@mixin flex-end-between {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+@mixin flex-center-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@mixin list-item-with-icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 7px;
+  a {
+    margin-left: 10px;
+    color: $color-navy;
+    text-decoration: underline;
+    font-size: 16px;
+  }
+}
+
+@mixin flex-center-start {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+@mixin flex-column-center {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+@mixin link-with-icon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 5px;
+  img {
+    margin-right: 7px;
+  }
+  a {
+    text-decoration: underline;
+    color: $color-navy;
+    margin-top: 5px;
+  }
+}
+@mixin custom-size($width, $height) {
+  width: $width;
+  height: $height;
+}
+@mixin custom-position($top, $left) {
+  top: $top;
+  left: $left;
+}
+@mixin transform($translateX : 0, $translateY : 0, $rotate : 0) {
+  transform: translate($translateX, $translateY) rotate($rotate);
+  -webkit-transform: translate($translateX, $translateY) rotate($rotate);
+  -moz-transform: translate($translateX, $translateY) rotate($rotate);
+  -ms-transform: translate($translateX, $translateY) rotate($rotate);
+  -o-transform: translate($translateX, $translateY) rotate($rotate);
+}
+//btn set
+@mixin btnstyle {
+  font-size: 14px;//1.6rem;
+  padding: 15px 25px 12px;
+  display: block;// display: inline-block;
+  min-width: 200px;
+  text-align: center;
+  line-height: 1.5;
+  border-radius: 3px;
+  border: 1px solid $color-navy;
+  cursor: pointer;
+  // transition: .3s;
+
+  &:hover {
+    opacity: .7;
+  }
+
+  &.navy {
+    color: #fff;
+    background: $color-navy;
+  }
+  &.light-blue{
+    color: #fff;
+    background: $color-light-blue;
+    border-color: $color-light-blue;
+  }
+
+  &.white {
+    color: $color-blue;
+    background: #fff;
+    border-color: $color-blue;
+  }
+
+  &.gray {
+    color: #fff;
+    background: $color-def;
+    border-color: $color-def;
+  }
+
+  &.disabled {
+    color: #fff;
+    background: #C7C7C7;
+    border-color: #C7C7C7;
+    cursor: default;
+    pointer-events: none;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  &:disabled {
+    color: #fff;
+    background: #C7C7C7;
+    border-color: #C7C7C7;
+    cursor: default;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+@mixin custom-size($width, $height) {
+  width: $width;
+  height: $height;
+}

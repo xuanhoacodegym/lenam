@@ -1,0 +1,18 @@
+/* ==============================
+layout / search_result
+================================= */
+
+.l-site-data-sp{
+    @extend .l-main-content;
+    width: 100%;
+    .site-data-inner{
+      @extend .c-white-shadow-rect;
+      padding: 35px 20px;
+      .site-data{
+         width: 100%;
+         background:$color-f7;
+         padding:20px;
+         height: auto;
+      }
+    }
+  }

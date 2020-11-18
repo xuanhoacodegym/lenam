@@ -1,0 +1,152 @@
+/* ==============================
+layout / campaign guide
+================================= */
+
+.l-campaign-guide-content {
+  @extend .c-white-shadow-rect;
+  @extend .l-wrapper;
+
+  .campaign-guide {
+    &-inner {
+      .campaign-guide-row {
+        display: flex;
+        flex-direction: column;
+        padding: 30px 0;
+      }
+      .guide-card {
+        margin-bottom: 40px;
+        &-inner {
+          margin: 15px;
+          padding: 25px 20px;
+          background: $color-white;
+        }
+        &-content {
+          &-header {
+            margin-bottom: 15px;
+          }
+          .campaign-list-item {
+            margin: 10px 0;
+            @include list-item-with-icon;
+          }
+        }
+      }
+      .card-primary {
+        background: #EFF6EA;
+      }
+
+      .card-secondary {
+        background: #FAF4FF;
+      }
+
+      .guide-card-header {
+        font-size: 28px;
+        color: $color-white;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px;
+      }
+
+      .card-primary .guide-card-header {
+        background: #65A336;
+      }
+
+      .card-secondary .guide-card-header {
+        background: #AE6BE8;
+      }
+    }
+    &-recommended {
+      .guide-box {
+        width: 100%;
+        padding: 10px 20px;
+        margin-bottom: 15px;
+        color: $color-white;
+      }
+      .box-primary {
+        background: $color-navy;
+      }
+      .box-secondary {
+        background: $color-blue;
+      }
+      .box-item {
+        margin-bottom: 20px;
+
+        &-header {
+          display: block;
+          h1 {
+            color: $color-white;
+            font-size: 30px;
+            font-weight: bold;
+          }
+          &-icon {
+            @include flex-left;
+            margin: 10px 0;
+            span {
+              margin-bottom: 2px;
+              margin-left: 10px;
+              color: yellow;
+              font-weight: bold;
+            }
+            &>img:not(:last-child) {
+              margin-right: 5px;
+            }
+          }
+        }
+
+        &-content {
+          background-color: $color-white;
+          color: $color-dove-gray;
+          padding: 15px 25px;
+          margin-top: 5px;
+          .campaign-list {
+            &-item {
+              margin-top: 5px;
+              @include flex-left;
+              text-decoration: underline;
+              a { margin-left: 10px; }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .top-page-header {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px;
+  }
+}
+.campaign-modal {
+  &-container {
+    min-height: 250px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background: $color-navy;
+    color: $color-white;
+    padding: 20px;
+    .header-icon-group {
+      @include flex-left;
+      margin: 10px 0px;
+      &>img:not(:last-child) {
+        margin-right: 7px;
+      }
+      span {
+        color: yellow;
+        font-weight: bold;
+      }
+    }
+  }
+  &-text-container {
+    background: $color-white;
+    padding: 20px;
+    margin: 20px 0;
+    color: black;
+  }
+  &-button {
+    height: 100px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: $color-white;
+    @include flex-center-center;
+  }
+}

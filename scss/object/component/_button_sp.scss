@@ -1,0 +1,27 @@
+/* ==============================
+component _button_sp
+================================= */
+
+.btn-def {
+  @include btnstyle;
+  min-width: 200px;
+}
+.btn-def-250 {
+  @include btnstyle;
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+.btn-w146 {
+  @include btnstyle;
+  // font-size: 1.6rem;
+  @include flex-center-center;
+   min-width: 146px;
+   height: 30px;
+   &>img{
+    margin: 0 5px 2px 0;
+   }
+
+}
+
+

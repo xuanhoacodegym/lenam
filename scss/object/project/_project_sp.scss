@@ -1,0 +1,188 @@
+
+/* ==============================
+	project
+================================= */
+.p-button-base{
+  display: block;
+  margin: 20px auto 0 auto;
+  width: 165px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgba(255,255,255,0.3);
+  border: solid 1px #B2B2B2;
+  border-radius: 3px;
+}
+.p-top-button{
+  @extend .p-button-base;
+  .icon-home{
+    font-size: 20px;
+  }
+}
+.p-close-button{
+  @extend .p-button-base;
+  @include flex-center-center;
+
+  border-color:rgba(112, 112, 112, 0.3);
+
+  .icon-cancel-circled-1{
+    font-size: 20px;
+    margin-right: 10px;
+  }
+}
+
+
+
+//アコーディオンボタン処理
+.p-accordion-button{
+  @include flex-center;
+  min-height: 60px;
+  padding:0 10px 0 15px;
+  margin-bottom: 1px;
+  color: #fff;
+  background:#2F5DAD;
+
+  .btn-right{
+    display: block;
+    width: 90px;
+    text-align: right;
+  }
+  .c-fs18n{
+    width: calc(100% - 90px);
+  }
+
+  .item-selected{
+    opacity: 0;
+    color: $color-navy;
+    background: #fff;
+    padding: 0 5px;
+    border-radius: 3px;
+    &.selected{
+      opacity: 1;
+    }
+  }
+  .icon-right-open{
+    display:inline-block;
+    opacity: 0.3;
+    font-size: 18px;
+    margin-left: 5px;
+  }
+  .icon-right-open.open{
+    transform:rotate(90deg);
+  }
+}
+.p-large-item{
+  display: none;//アコーディオン処理の為初期非表示
+  color: $color-navy;
+  
+  span{font-size: 18px;}
+
+  .large-item-title{
+    @include flex-left;
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    padding-left: 15px;
+    // padding: 15px 10px;
+  }
+  .item-list{
+    li{
+      height: 60px;
+      border-bottom: solid 1px #fff;
+      
+      @include flex-start;
+      label{
+        @include flex-left;
+        padding-left: 30px;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  input[type="checkbox"]{
+    margin-right: 5px;
+  }
+}
+
+//検索ページヘッダー
+
+.p-search-header{
+  @include flex-center;
+  padding: 20px 15px;
+
+  .conditions-select{
+    @include flex-center;
+
+    .conditions-tab{
+      display: block;
+      margin-left: 8px;
+      padding: 10px 12px 8px 12px;
+      color: $color-navy;
+      background: $color-f7;
+      text-align: center;
+      border-radius: 5px;
+
+      .c-fs13n{
+        margin-bottom: -3px;
+      }
+      &.selected{
+        color: #fff;
+        background: $color-navy;
+      }
+    }
+  }
+
+}
+
+.p-bottom-fixed-area{
+  position: fixed;
+  bottom: 0;
+  z-index: 2;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+}
+
+//リストfloat
+.p-float-li{//ulに付ける
+  li{
+    float: left;
+  }
+}
+
+//document-button
+.document-button{
+  @include flex-center;
+  width: 100%;
+  height: 80px;
+  color: #fff;
+  background: $color-navy;
+  padding:0 10px 0 20px;
+  margin-bottom: 2px;
+  .icon-right-open{
+    opacity: 0.5;
+  }
+}
+
+
+//item-active
+.item-active {
+  opacity: 1;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 95.5%;
+    margin-left: -2px;
+    border: 12px solid transparent;
+    border-top: 12px solid $color-navy;
+  }
+
+  &>a {
+    opacity: 0.5;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

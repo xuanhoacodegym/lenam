@@ -1,0 +1,50 @@
+/* ==============================
+layout / _search_window_sp
+================================= */
+
+.l-search-window-content{
+  // @extend .c-white-shadow-rect;
+  padding:20px;
+
+  width: 100%;
+  height: auto;
+
+  .panel-block{
+    @include flex-start;
+  }  
+}
+
+.employ-status{
+  overflow: hidden;
+  .panel-block{
+    float: left;
+    margin:0 10px 10px 0;
+    min-width: 130px;
+  }
+}
+
+.p-float-search-window{
+  overflow: hidden;
+  @extend .p-float-li;
+  li{
+    min-width: 40%;
+    margin-bottom: 5px;
+  }
+  label{
+    color: $color-navy;
+    font-size: 16px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

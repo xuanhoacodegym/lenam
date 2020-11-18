@@ -1,0 +1,23 @@
+/* ==============================
+layout / detail
+================================= */
+
+.l-detail-content{
+  @extend .l-main-content;
+  padding-top: 55px;
+
+  .detail-inner{
+    @extend .c-white-shadow-rect;
+    padding: 20px;
+    
+    height: 1200px;//仮で入れている
+
+  }
+}
+
+
+
+
+
+
+

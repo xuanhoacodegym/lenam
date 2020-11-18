@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang='ja'>
+
+<head>
+  <meta charset='UTF-8'>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+  <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+  <title>ログイン</title>
+  <link rel='stylesheet' href='./css/style_sp.css'>
+  <!-- drawer.css -->
+  <link rel="stylesheet" href="./css/drawer_custom.css">
+
+</head>
+
+<body class="drawer drawer--right">
+  <header class="l-header">
+    <a href="./A2_menu_sp.html" class="header-inner">
+      <img src="./img/title_logo_sp.png">
+      <span class="c-fs10b color-navy">代理店様専用サイト</span>
+    </a>
+
+    <!-- ハンバーガーメニューボタン -->
+    <button type="button" class="drawer-toggle drawer-hamburger">
+      <span class="sr-only">toggle navigation</span>
+      <span class="drawer-hamburger-icon"></span>
+    </button>
+
+      <!-- ハンバーガーメニュー中身 -->
+      <nav class="drawer-nav">
+        <div class="l-menu-inner">
+          <div class="blank"></div>
+  
+          <div class="company-name c-fs16n u-ml20">SBヒューマンキャピタル株式会社</div>
+          <div class="c-fs14n u-ml20 u-mt5">
+            <span class="user-name">和田 由紀子</span> 様
+          </div>
+  
+          <a href="C1_search_company_sp.html" class="search-link u-mt20 u-mb20">提案できる会社・<br>キャンペーンを調べる<span
+              class="icon-right-dir"></span></a>
+  
+          <a href="C3_contact_history_sp.html" class="c-fs16n u-ml10">└ 過去の履歴を確認する</a>
+  
+          <a href="./B1_search_case_sp.html" class="search-link u-mt10">応募数・原稿事例を調べる<span
+              class=" icon-right-dir"></span></a>
+  
+          <div class="drawer-dropdown">
+            <a class="search-link u-mt10" href="#" data-toggle="dropdown" role="button" aria-expanded="false">
+              提案資料を準備する <span class="icon-right-dir"></span>
+            </a>
+    
+            <div class="popup">
+              <a href="javascript:void(0);" class="u-mt10">
+                <p class="left">キャンペーン一覧</p>
+                <div class="right">
+                  <img src="img/svg_icons/icon_step.svg">
+                </div>
+              </a>
+
+              <a href="javascript:void(0);" class="u-mt10">
+                <p class="left">サイトデータ</p>
+                <div class="right">
+                  <img src="img/svg_icons/icon_step.svg">
+                </div>
+              </a>
+
+              <a href="javascript:void(0);" class="u-mt10">
+                <p class="left">オプション商品一覧</p>
+                <div class="right">
+                  <img src="img/svg_icons/icon_step.svg">
+                </div>
+              </a>
+
+              <a href="javascript:void(0);" class="u-mt10">
+                <p class="left">スカウト検索</p>
+                <div class="right">
+                  <img src="img/svg_icons/icon_step.svg">
+                </div>
+              </a>
+
+              <a href="javascript:void(0);" class="u-mt10">
+                <p class="left">仮原稿の準備</p>
+                <div class="right">
+                  <img src="img/svg_icons/icon_step.svg">
+                </div>
+              </a>
+            </div>
+          </div>
+          
+          <div class="drawer-dropdown">
+            <a class="search-link u-mt10" href="#" data-toggle="dropdown" role="button" aria-expanded="false">
+              申込をする <span class="icon-right-dir"></span>
+            </a>
+    
+            <div class="popup">
+
+              <a href="javascript:void(0);" class="u-mt10">
+                <p class="left">新規のお申込み</p>
+                <div class="right">
+                  <img src="img/svg_icons/icon_step.svg">
+                </div>
+              </a>
+
+              <a href="javascript:void(0);" class="u-mt10">
+                <p class="left">継続・再契約のお申込み</p>
+                <div class="right">
+                  <img src="img/svg_icons/icon_step.svg">
+                </div>
+              </a>
+
+              <a href="javascript:void(0);" class="u-mt10">
+                <p class="left">オプションのお申込み</p>
+                <div class="right">
+                  <img src="img/svg_icons/icon_step.svg">
+                </div>
+              </a>
+
+            </div>
+          </div>
+         
+  
+          <a href="./B1_search_case_sp.html" class="search-link u-mt10">取材・制作を発注する<span
+            class=" icon-right-dir"></span></a>
+  
+          <div class="drawer-dropdown">
+  
+            <a class="search-link u-mt10" href="#" data-toggle="dropdown" role="button" aria-expanded="false">
+              その他各種申請 <span class="icon-right-dir"></span>
+            </a>
+            <div class="popup">
+              
+              <a href="javascript:void(0);" class="u-mt10">
+                <p class="left">お申込み後〜掲載開始前の場合</p>
+                <div class="right">
+                  <img src="img/svg_icons/icon_step.svg">
+                </div>
+              </a>
+              
+              <a href="javascript:void(0);" class="u-mt10">
+                <p class="left">掲載中の場合</p>
+                <div class="right">
+                  <img src="img/svg_icons/icon_step.svg">
+                </div>
+              </a>
+              
+              <a href="javascript:void(0);" class="u-mt10">
+                <p class="left">企業審査について</p>
+                <div class="right">
+                  <img src="img/svg_icons/icon_step.svg">
+                </div>
+              </a>
+
+              <a id="border-bottom" class="left" href="javascript:void(0);" class="u-mt10">
+                <p class="left">原稿審査について</p>
+                <div class="right">
+                  <img src="img/svg_icons/icon_step.svg">
+                </div>
+              </a>
+
+            </div>
+          </div>
+          <a href="#" class="menu-button u-mt60">
+            <span class="icon-users"></span>
+            アカウント管理
+          </a>
+  
+          <a href="A1_login_sp.html" class="menu-button">
+            <span class="icon-lock-open-alt"></span>
+            ログアウト
+          </a>
+          <div class="blank"></div>
+        </div>
+      </nav>
+  </header>
+
+
+
+  <main class="l-menu-content">
+    <div class="menu-inner">
+      <div class="process u-ml18">
+        <img src="img/svg_icons/icon_process.svg">
+        <div class="title u-ml12 c-fs18b">提案までの流れ</div>
+      </div>
+      <div class="step">
+        <div class="left">
+          <p class="title c-fs18b">STEP1</p>
+          <p class="detail c-fs18b">提案できる会社・キャンペーンを調べる</p>
+        </div>
+        <div class="right">
+          <img src="img/svg_icons/icon_step.svg">
+        </div>
+      </div>
+      <div class="blank"></div>
+
+      <div class="step">
+        <div class="left">
+          <p class="title c-fs18b">STEP2</p>
+          <p class="detail c-fs18b">応募数・原稿事例を調べる</p>
+        </div>
+        <div class="right">
+          <img src="img/svg_icons/icon_step.svg">
+        </div>
+      </div>
+      <div class="blank"></div>
+      <div class="step">
+        <div class="left">
+          <p class="title c-fs18b">STEP3</p>
+          <p class="detail c-fs18b">提案資料を準備する</p>
+        </div>
+        <div class="right">
+          <img src="img/svg_icons/icon_step.svg">
+        </div>
+      </div>
+
+      <div class="process u-ml18">
+        <img src="img/svg_icons/icon_process.svg">
+        <div class="title u-ml12 c-fs18b">申込〜掲載までの流れ</div>
+      </div>
+
+      <div class="step">
+        <div class="left">
+          <p class="title c-fs18b">STEP4</p>
+          <p class="detail c-fs18b">申込をする</p>
+        </div>
+        <div class="right">
+          <img src="img/svg_icons/icon_step.svg">
+        </div>
+      </div>
+      <div class="blank"></div>
+
+
+      <div class="step">
+        <div class="left">
+          <p class="title c-fs18b">STEP5</p>
+          <p class="detail c-fs18b">取材・制作を発注する</p>
+        </div>
+        <div class="right">
+          <img src="img/svg_icons/icon_step.svg">
+        </div>
+      </div>
+
+      <div class="process u-ml18">
+        <img src="img/svg_icons/icon_process_circle.svg">
+        <div class="title u-ml12 c-fs18b"><span class="u-pt5">掲載後の申請</span></div>
+      </div>
+
+      <div class="step">
+        <div class="left">
+          <p class="detail c-fs18b">その他各種申請</p>
+        </div>
+        <div class="right">
+          <img src="img/svg_icons/icon_step.svg">
+        </div>
+      </div>
+
+
+
+      <div class="menu-bottom u-mb30">
+        <div class="menu-bottom-title">
+            <img src="img/svg_icons/icon_information.svg" class="img u-pr10">
+            <p class="c-fs18b color-science-blue">デイリーインフォメー</br>
+              ション九州様 <strong class="c-fs14b">への特別案内</strong></p>
+        </div>
+        
+        <div class="menu-bottom-inner color-f7 c-fs16b u-mb10 u-mt10">
+            <a href="#" class="c-fs16b color-f7"><img class=" u-pl10" src="img/svg_icons/icon_download.svg" width="17" > <img class="new u-ml5" src="img/svg_icons/icon_new.svg"> <i class="u-ml5">6月特別キャンペーン資料</i></a>
+            <a href="#" class="c-fs16b color-f7"><img class=" u-pr10 u-pl10" src="img/svg_icons/icon_download.svg" width="17" ><i>◯◯◯◯◯特別施策資料</i></a>
+            <a href="#" class="c-fs16b color-f7"> <img class=" u-pr10 u-pl10" src="img/svg_icons/icon_download.svg" width="17" ><i>◯◯◯◯◯特別施策資料</i></a>
+            <a href="#" class="c-fs16b color-f7"><img id="pl12" class="c-fs20b u-pr15" src="img/svg_icons/icon_triangle_right.svg"><i>一覧を見る</i></a>
+        </div>
+        <div class="menu-bottom-title u-mt20">
+            <img src="img/svg_icons/icon_information.svg" class="img u-pr10">
+            <p class="c-fs22b color-science-blue">運営からの<strong class="c-fs14b">　おしらせ</strong></p>
+        </div>
+        <div class="menu-bottom-inner-notify color-f7 c-fs16b u-mb10 u-mt10">
+            <a class="inner-content" href="#">
+                <img src="img/svg_icons/icon_triangle_right.svg">
+                <div class="color-navy c-fs14n u-ml10 "><span>テレワーク実施に関するお知らせ</span></div>
+            </a>
+            <a class="inner-content u-mt10" href="#">
+                <img src="img/svg_icons/icon_triangle_right.svg" class="sanka-ku">
+                <div class="color-navy c-fs14n u-ml20"><span>サイトデータ・ユーザープロフィール更新（6月度版)</span></div>
+            </a>
+        </div>
+        <div class="menu-bottom-inner-login c-fs16b u-mb10 u-mt20">
+          <a href="#" class="inner-content">
+              <span class=""><img src="img/svg_icons/icon_file.svg"></span>
+              <div class="content color-navy c-fs16b">管理画面ログイン</div>
+              <img class="" src="img/svg_icons/icon_popup.svg">
+
+          </a>
+      </div>
+    </div>
+
+    </div>
+  </main>
+  <div class="footer-link">
+    <a class="ask">
+      <img class="u-mr10" src="img/svg_icons/icon_ask.svg">
+      この画面について
+    </a>
+    <a href="./A2_menu_sp.html" class="p-top-button">
+      <span class="icon-home"></span>
+      トップページへ
+    </a>
+  </div>
+
+  <footer class="l-footer-bottom">
+    <div class="footer-inner">
+      <p class="copyright">COPYRIGHT &copy; SB Human Capital Corp. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js" charset="utf-8"></script>
+
+  <script src="js/modal_sp.js"></script>
+
+</body>
+
+</html>

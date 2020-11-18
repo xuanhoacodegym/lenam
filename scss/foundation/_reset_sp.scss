@@ -1,0 +1,134 @@
+@charset "utf-8";
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+/*-----------------------------------------------------------------
+	Customize: tcm 4f
+	Last Updated : 2018.06.28
+-----------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------
+		基本設定
+-----------------------------------------------------------------*/
+/*要素のフォントサイズやマージン・パディングをリセット*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+}
+body, div, pre, p, blockquote, form, fieldset, input, textarea, select, option, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, table, th, td, tr, embed, object, a, img {
+	word-wrap: break-word;
+}
+html{
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.4rem;
+	line-height:1;
+	font-family: "メイリオ", Meiryo,"ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", Verdana, "游ゴシック", YuGothic,  sans-serif;
+}
+
+/*新規追加要素のデフォルトはすべてインライン要素になっているので、section要素などをブロック要素へ変更*/
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+	display:block;
+}
+
+blockquote, q {
+	quotes:none;
+}
+
+/*blockquote要素、q要素の前後にコンテンツを追加しないように指定*/
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content:'';
+	content:none;
+}
+
+//iOS Safariのplaceholderリセット
+input::-webkit-input-placeholder{
+  white-space: normal;
+	line-height: normal; // 
+}
+
+//iOS Safariのデフォルトスタイルリセット
+input[type="submit"]
+,input[type="button"]
+,input[type="text"]
+,input[type="email"]
+,input[type="password"]{
+	-webkit-appearance: none;
+}
+
+/*縦方向の揃え位置を中央揃えに指定しています*/
+input, select {
+	vertical-align:middle;
+}
+
+/*画像を縦に並べた時に余白が出ないように*/
+img {
+	border: 0;
+	font-size: 0;
+	line-height: 0;
+}
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+/* クリア */
+.clearfix:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	font-size: 1px;
+}
+.clearfix{
+	display: inline-table;
+}
+ /* Hides from IE-mac \*/
+* html .clearfix{
+	height: 1%;
+}
+.clearfix{
+	display: block;
+}
+ /* End hide from IE-mac */
+
+*:first-child+html .clearfix { /* IE7用 */
+	width: 100%;
+}
+
+/*-----------------------------------------------------------------
+		調整用
+-----------------------------------------------------------------*/
+/* 整列系 */
+.ta-center { text-align: center !important;}
+.ta-right { text-align: right;}
+.ta-left { text-align: left;}
+
+/* フォント関連 */
+.font-normal { font-weight: normal;}
+.fs100 { font-size: 100% !important;}
+.fs100 li { font-size: 100% !important;}
+

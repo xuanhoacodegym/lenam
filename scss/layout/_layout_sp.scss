@@ -1,0 +1,41 @@
+/* ==============================
+	layout
+================================= */
+.l-height-100{
+	height: 100%;
+}
+
+.l-main-content{
+	margin: 0 auto;
+	width: $base-content-width;
+}
+
+//A2 メニューページ
+// .l-menu-content{
+// 	@extend .c-white-shadow-rect;
+//   padding:40px 0px;
+
+//   width: 100%;
+//   height: auto;
+
+// 	.menu-inner{
+// 		// margin: 0 auto;
+// 		text-align: right;
+// 		.btn-def{
+// 			@include flex-center-center;
+// 			width: 100%;
+// 			padding:0;
+// 		}
+// 	}
+// }
+.l-wrapper{
+	min-height: calc(100vh - 155px);
+}
+
+
+
+
+
+
+
+

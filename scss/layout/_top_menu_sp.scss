@@ -1,0 +1,41 @@
+/* ==============================
+layout / top
+================================= */
+
+.l-topmenu-content{
+  @extend .l-main-content;
+  padding-top: 55px;
+
+  .topmenu-inner{
+    @extend .c-white-shadow-rect;
+    padding: 95px 0;
+    
+    .buttons-outer{
+      @include flex-center;
+      width: 672px;
+      margin: 0 auto;
+      .btn-def{
+        width: 320px;
+        height: 125px;
+        font-weight: bold;
+        font-size: 18px;
+      }
+    }
+    .link-outer{
+      width: 672px;
+      margin: 12px auto 0 auto;
+      .icon-folder-open-empty{
+        font-size: 20px;
+        margin-right:8px;
+      }
+    }
+
+  }
+}
+
+
+
+
+
+
+

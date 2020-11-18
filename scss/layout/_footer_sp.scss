@@ -1,0 +1,27 @@
+/* ==============================
+module / footer
+================================= */
+.l-footer {
+  background:$color-navy;
+  margin-top: 60px;
+
+  .footer-inner {
+    height: 30px;
+    width: 100%;
+  }
+  
+  .copyright {
+    color: #fff;
+    font-size: 10px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+}
+
+.l-footer-bottom {
+  @extend .l-footer;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}

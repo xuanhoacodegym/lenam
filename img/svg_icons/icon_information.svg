@@ -1,0 +1,18 @@
+<svg id="flag_24_1_" data-name="flag_24 (1)" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #0868c9;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_3717" data-name="Rectangle 3717" class="cls-1" width="44" height="44"/>
+  <path id="Path_236" data-name="Path 236" class="cls-2" d="M8,37.333V8H37.333L32.75,17.167l4.583,9.167h-22" transform="translate(-0.667 -0.666)"/>
+</svg>

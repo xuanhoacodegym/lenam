@@ -1,0 +1,95 @@
+/* ==============================
+layout / contact_history_ok
+================================= */
+
+.l-contact_history{
+  @extend .c-white-shadow-rect;
+  @extend .l-wrapper;
+  .contact-history-content {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 20px 40px rgba(105, 105, 105, 0.2);
+
+    .history-content {
+      background-color: $color-blue24;
+
+      .content {
+        padding: 15px;
+        color: #fff;
+
+        .contact-history {
+          font-size: 4em;
+          font-weight: bold;
+        }
+      }
+    }
+
+    .contact-history-info {
+      background-color: $color-light-blue-d1;
+      min-height: 400px;
+
+      .blue {
+        color: $color-blue24;
+      }
+      .contact-info-content {
+        padding: 15px;
+        .title-width{
+          width: 90%;
+        }
+        .contact-box {
+          background: $color-white;
+          border: 2px dashed $color-dodger-blue;
+          border-radius: 5px;
+          padding: 10px 15px;
+          width: 100%;
+          position: relative;
+          margin-top: 10px;
+          &-top-mark {
+            color: $color-dodger-blue;
+            position: absolute;
+            top: -22px;
+            left: -2px;
+          }
+          .contact-list {
+            margin-top: 0;
+            a {
+              font-weight: bold !important;
+            }
+            &-container {
+              display: flex;
+              flex-direction: column;
+            }
+            &-child {
+              margin-top: 8px;
+              margin-left: 38px;
+              &-indent {
+                position: absolute;
+                left: 20px;
+              }
+              a {
+                font-weight: bold !important;
+              }
+            }
+          }
+        }
+        .contact-select-mark-wrapper {
+          width: 100%;
+          @include flex-center-center;
+          margin: 7px 0;
+          .contact-select-mark {
+            color: $color-white;
+            background: $color-dodger-blue;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            font-weight: bold;
+            @include flex-center-center;
+          }
+        }
+      }
+    
+    }
+  }
+  
+}
+

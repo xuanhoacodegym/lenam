@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang='ja'>
+
+<head>
+  <meta charset='UTF-8'>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+  <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+  <title>ログイン</title>
+  <link rel='stylesheet' href='./css/style_sp.css'>
+  <!-- drawer.css -->
+  <link rel="stylesheet" href="./css/drawer_custom.css">
+
+</head>
+
+<body class="drawer drawer--right">
+  <header class="l-header">
+    <a href="./A2_menu_sp.html" class="header-inner">
+      <img src="./img/title_logo_sp.png">
+      <span class="c-fs10b color-navy">代理店様専用サイト</span>
+    </a>
+
+    <!-- ハンバーガーメニューボタン -->
+    <button type="button" class="drawer-toggle drawer-hamburger">
+      <span class="sr-only">toggle navigation</span>
+      <span class="drawer-hamburger-icon"></span>
+    </button>
+
+      <!-- ハンバーガーメニュー中身 -->
+      <nav class="drawer-nav">
+        <div class="l-menu-inner">
+          <div class="blank"></div>
+  
+          <div class="company-name c-fs16n u-ml20">SBヒューマンキャピタル株式会社</div>
+          <div class="c-fs14n u-ml20 u-mt5">
+            <span class="user-name">和田 由紀子</span> 様
+          </div>
+  
+          <a href="C1_search_company_sp.html" class="search-link u-mt20 u-mb20">提案できる会社・<br>キャンペーンを調べる<span
+              class="icon-right-dir"></span></a>
+  
+          <a href="C3_contact_history_sp.html" class="c-fs16n u-ml10">└ 過去の履歴を確認する</a>
+  
+          <a href="./B1_search_case_sp.html" class="search-link u-mt10">応募数・原稿事例を調べる<span
+              class=" icon-right-dir"></span></a>
+  
+          <div class="drawer-dropdown">
+            <a class="search-link u-mt10" href="#" data-toggle="dropdown" role="button" aria-expanded="false">
+              提案資料を準備する <span class="icon-right-dir"></span>
+            </a>
+    
+            <div class="popup">
+              <a href="javascript:void(0);" class="u-mt10">
+                <p class="left">キャンペーン一覧</p>
+                <div class="right">
+                  <img src="img/svg_icons/icon_step.svg">
+                </div>
+              </a>
+
+              <a href="javascript:void(0);" class="u-mt10">
+                <p class="left">サイトデータ</p>
+                <div class="right">
+                  <img src="img/svg_icons/icon_step.svg">
+                </div>
+              </a>
+
+              <a href="javascript:void(0);" class="u-mt10">
+                <p class="left">オプション商品一覧</p>
+                <div class="right">
+                  <img src="img/svg_icons/icon_step.svg">
+                </div>
+              </a>
+
+              <a href="javascript:void(0);" class="u-mt10">
+                <p class="left">スカウト検索</p>
+                <div class="right">
+                  <img src="img/svg_icons/icon_step.svg">
+                </div>
+              </a>
+
+              <a href="javascript:void(0);" class="u-mt10">
+                <p class="left">仮原稿の準備</p>
+                <div class="right">
+                  <img src="img/svg_icons/icon_step.svg">
+                </div>
+              </a>
+            </div>
+          </div>
+          
+          <div class="drawer-dropdown">
+            <a class="search-link u-mt10" href="#" data-toggle="dropdown" role="button" aria-expanded="false">
+              申込をする <span class="icon-right-dir"></span>
+            </a>
+    
+            <div class="popup">
+
+              <a href="javascript:void(0);" class="u-mt10">
+                <p class="left">新規のお申込み</p>
+                <div class="right">
+                  <img src="img/svg_icons/icon_step.svg">
+                </div>
+              </a>
+
+              <a href="javascript:void(0);" class="u-mt10">
+                <p class="left">継続・再契約のお申込み</p>
+                <div class="right">
+                  <img src="img/svg_icons/icon_step.svg">
+                </div>
+              </a>
+
+              <a href="javascript:void(0);" class="u-mt10">
+                <p class="left">オプションのお申込み</p>
+                <div class="right">
+                  <img src="img/svg_icons/icon_step.svg">
+                </div>
+              </a>
+
+            </div>
+          </div>
+         
+  
+          <a href="./B1_search_case_sp.html" class="search-link u-mt10">取材・制作を発注する<span
+            class=" icon-right-dir"></span></a>
+  
+          <div class="drawer-dropdown">
+  
+            <a class="search-link u-mt10" href="#" data-toggle="dropdown" role="button" aria-expanded="false">
+              その他各種申請 <span class="icon-right-dir"></span>
+            </a>
+            <div class="popup">
+              
+              <a href="javascript:void(0);" class="u-mt10">
+                <p class="left">お申込み後〜掲載開始前の場合</p>
+                <div class="right">
+                  <img src="img/svg_icons/icon_step.svg">
+                </div>
+              </a>
+              
+              <a href="javascript:void(0);" class="u-mt10">
+                <p class="left">掲載中の場合</p>
+                <div class="right">
+                  <img src="img/svg_icons/icon_step.svg">
+                </div>
+              </a>
+              
+              <a href="javascript:void(0);" class="u-mt10">
+                <p class="left">企業審査について</p>
+                <div class="right">
+                  <img src="img/svg_icons/icon_step.svg">
+                </div>
+              </a>
+
+              <a id="border-bottom" class="left" href="javascript:void(0);" class="u-mt10">
+                <p class="left">原稿審査について</p>
+                <div class="right">
+                  <img src="img/svg_icons/icon_step.svg">
+                </div>
+              </a>
+
+            </div>
+          </div>
+          <a href="#" class="menu-button u-mt60">
+            <span class="icon-users"></span>
+            アカウント管理
+          </a>
+  
+          <a href="A1_login_sp.html" class="menu-button">
+            <span class="icon-lock-open-alt"></span>
+            ログアウト
+          </a>
+          <div class="blank"></div>
+        </div>
+      </nav>
+  </header>
+  <main class="l-inspection-about-open-sp">
+    
+        <div class="inspection-about-open-inner">
+            <h2 class="c-fs18b u-pt30">その他各種申請 - 企業審査・原稿審査</h2>
+            <div class="inspection-about-open-header">  
+                <a class="inspection-about-open-1" href="G1_1_publish_request_after.html">
+                  <button class="color-white">
+                    <p class="c-fs12b">お申込み後〜<br> 掲載開始前</p>
+                </button>
+                </a>
+               <a class="inspection-about-open-2" href="G1_2_publish_now_case.html">
+                <button class="color-white ">
+                  <p class="c-fs12b">掲載中</p>
+                </button>
+               </a>
+               <a class="inspection-about-open-2" href="G1_3_company_inspection_about.html">
+                <button class=" color-white">
+                  <span class="c-fs12b">企業審査</span>
+              </button>
+               </a>
+                <a class="inspection-about-open-2 item-active" href="G1_4_manus_inspection_about.html">
+                  <button class=" color-white">
+                    <span class="c-fs12b">原稿審査</span>
+                  </button>
+                </a>
+            </div>
+            <p class="c-fs14n color-dove-gray u-mt20">イーキャリアに掲載する原稿には審査がございます。原稿を作成される際のルールを以下にまとめております。</p>
+            <div class="u-mt10 inspection-about-open-new">
+                  <img src="img/svg_icons/icon_doc_text.svg">
+                  <a href="#" class="c-fs16n link-underline color-navy">表記ルール（ver.6.1）</a>
+            </div>
+            <div class="inspection-about-open-new">
+                  <img src="img/svg_icons/icon_doc_text.svg">
+                  <a href="#" class="c-fs16n link-underline color-navy">仕事情報名表記ルール</a>
+            </div>
+              <div class="new-form-inner">
+                    <div class="form-inner-left">
+                        <div class="color-navy">
+                          <span class="c-fs30b">職種コードの追加・変更</span>
+                          <p class="c-fs14b send u-mt10">職種コード2～4を追加・変更したい場合に申請</p>
+                        </div>
+                        <div class="u-mb15 u-mt15">
+                          <img class="u-mr5" src="img/svg_icons/icon_triangle_right.svg" height="12"> 
+                          <a href="#" class="c-fs16n link-underline color-navy">合同募集に関する注意点はこちら</a>
+                        </div>
+                        <div class="color-navy left-top">
+                          <div class="left-top-center u-mt10">
+                              <span class="background-red u-mr5 c-fs12b"><span class="c-fs12b">受付〆切</span></span>
+                              <p class="color-red c-fs16b">随時</p>
+                          </div>
+                          <div class="left-top-center u-mt5">
+                            <span class="background-blue c-fs12b u-mr5">反映</span>
+                            <p class="c-fs16b color-science-blue">当日～翌営業日</p>
+                          </div>
+                      </div>
+                    </div>
+                  <div class="form-inner-manus u-mt20 u-mb20">
+                        <button class="btn-def color-white">
+                          <img src="img/svg_icons/icon_path.svg"/>
+                          <p class="c-fs14n">職種コード追加・変更申請</p>
+                        </button>
+                  </div>
+            </div>
+           
+           
+            <div class="inspection-about-open-form">
+                <div class="new-form-inner-2">
+                  <div class="form-inner-left">
+                    <div class="color-navy">
+                      <span class="c-fs30b">掲載社名を変更する</span>
+                      <p class="c-fs14b u-mt20 send">掲載社名を変更する場合に提出</p>
+                    </div>
+                    <div class="u-mb15 u-mt15">
+                      <img class="u-mr5" src="img/svg_icons/icon_triangle_right.svg" height="12"> 
+                      <a href="#" class="c-fs16n link-underline color-navy">提出時の注意点はこちら</a>
+                    </div>
+                    <div class="color-navy left-top">
+                      <div class="left-top-center u-mt20">
+                        <span class="background-red u-mr5 c-fs12b"><span class="c-fs12b">受付〆切</span></span>
+                        <p class="color-red c-fs16b">随時</p>
+                      </div>
+                      <div class="left-top-center u-mt5">
+                        <span class="background-blue c-fs12b u-mr5">反映</span>
+                        <p class="c-fs16b color-science-blue">半日～1営業日程度</p>
+                      </div>
+                    </div>
+                  </div>
+                 
+                  <div class="form-inner-right">
+                      <div class="step">
+                        <p class="c-fs26b">STEP1</p>
+                        <img class="u-pt10 u-pb10" src="img/svg_icons/icon_triangle_down.svg">
+                        <p class="c-fs26b">STEP2</p>
+                      </div>
+                      <div class="button" >
+                        <button class="btn-def color-white u-mb20">
+                          <img src="img/svg_icons/icon_down.svg" class="u-mr10" id="icon_img" width="17">
+                          <span class="c-fs14n">書類のダウンロード</span>
+                        </button>
+                        <button class="btn-def color-white u-mt20">
+                          <img src="img/svg_icons/icon_path.svg" class="u-mr10" id="icon_img_path" width="17">
+                          <span class="c-fs14n">書類（PDF）の提出</span>
+                        </button>
+                      </div>
+                  </div>
+                </div>
+            </div>    
+        </div> 
+  </main>
+  <footer class="l-footer-manus-sp u-mt50">
+    <a class="toggle">
+      <span class="icon-plus u-mr20"></span>
+      <span class="c-fs16b">〆切タイミングのご案内</span>
+    </a>
+    <div class="main-footer-sp">
+        <div class="main-content-1 u-mr10">
+            <div class="c-fs20b color-speech-red">公開申請〆切</div>
+            <div class="c-fs13b color-navy item-3 u-mt5">毎営業日受付</div>
+          </div>
+          <div class="main-content-2 u-mr50 color-navy u-mt20">
+              <span class="c-fs20b u-pl5">13:00</span><span class="c-fs14b" >〆切</span>
+          </div>
+         
+          <div class="main-content-3 u-mt30 u-pt30">
+              <div class="c-fs20b color-speech-red">掲載中原稿の</div>
+              <div class="c-fs20b color-speech-red">修正〆切と反映時間</div>
+              <div class="c-fs13b color-navy item-3 u-mt5">毎営業日受付</div>
+          </div>
+          <div class="main-content-4 color-navy">
+              <div class="main-content-4-left">
+                <div class="time c-fs20b u-mr10"> <span >9:00</span><span class="c-fs14b">〆切</span></div>
+                <img class="u-mr10" src="img/svg_icons/right_arrow.svg">
+                <div class="c-fs20b item-5"><span>13:10</span><span class="c-fs14b" >頃</span></div>
+              </div>
+              <div class="main-content-4-left">
+                <div class="time c-fs20b u-mr10"><span>13:00</span><span class="c-fs14b">〆切</span></div>
+                <img class="u-mr10" src="img/svg_icons/right_arrow.svg">
+                <div class="c-fs20b item-5"> <span>17:10</span><span class="c-fs14b" >頃</span></div>
+              </div>
+              <div class="main-content-4-left">
+                <div class=" time c-fs20b u-mr10"> <span >17:00</span><span class="c-fs14b" >〆切</span></div>
+                <img class="u-mr10" src="img/svg_icons/right_arrow.svg">
+                <div class="item-5">
+                    <div class="c-fs13b item-5-blue u-mr5">翌営業日</div>
+                    <div class="c-fs20b"><span>17:10</span><span class="c-fs14b">頃</span></div>
+                  </div>
+              </div>
+          </div>
+    </div>
+  </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- iScroll -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+<!-- drawer.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+
+<script src="js/modal_sp.js"></script>
+
+<script>
+  $(function() {
+      $('.drawer').drawer();
+
+      $('.toggle').click(function(){
+        //クリックされた要素に隣接する要素が開いたり閉じたりする。
+        var $this = $(this);
+        $(this).next('.main-footer-sp').slideToggle("nomal"
+        ,function(){
+          var $target = $($this.children()[0]);
+          
+          if($target.hasClass("icon-minus")){
+            $target.removeClass("icon-minus").addClass("icon-plus");
+          }else if($target.hasClass("icon-plus")){
+            $target.removeClass("icon-plus").addClass("icon-minus");
+          };
+        });
+    });
+
+  });
+  $(document).ready(function(){
+      $("#date").on("change", function() {
+        this.setAttribute(
+        "data-date",
+         moment(this.value, "YYYY-MM-DD")
+        .format( this.getAttribute("data-date-format") )
+    )
+    }).trigger("change")
+    });
+  </script>
+</body>
+</html>

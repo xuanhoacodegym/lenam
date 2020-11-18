@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang='ja' class="l-height-100">
+    <head>
+        <meta charset='UTF-8'>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+        <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+        <title>ログイン</title>
+        <link rel='stylesheet' href='./css/style_sp.css'>
+        <!-- drawer.css -->
+        <link rel="stylesheet" href="./css/drawer_custom.css">
+      
+    </head>
+  <body class="drawer drawer--right">
+    <header class="l-header">
+        <a href="./A2_menu_sp.html" class="header-inner">
+          <img src="./img/title_logo_sp.png">
+          <span class="c-fs10b color-navy">代理店様専用サイト</span>
+        </a>
+    
+        <!-- ハンバーガーメニューボタン -->
+        <button type="button" class="drawer-toggle drawer-hamburger">
+          <span class="sr-only">toggle navigation</span>
+          <span class="drawer-hamburger-icon"></span>
+        </button>
+    
+          <!-- ハンバーガーメニュー中身 -->
+        <nav class="drawer-nav">
+          <div class="l-menu-inner">
+            <div class="blank"></div>
+    
+            <div class="company-name c-fs16n u-ml20">SBヒューマンキャピタル株式会社</div>
+            <div class="c-fs14n u-ml20 u-mt5">
+              <span class="user-name">和田 由紀子</span> 様
+            </div>
+    
+            <a href="C1_search_company_sp.html" class="search-link u-mt20 u-mb20">提案できる会社・<br>キャンペーンを調べる<span
+                class="icon-right-dir"></span></a>
+    
+            <a href="C3_contact_history_sp.html" class="c-fs16n u-ml10">└ 過去の履歴を確認する</a>
+    
+            <a href="./B1_search_case_sp.html" class="search-link u-mt10">応募数・原稿事例を調べる<span
+                class=" icon-right-dir"></span></a>
+    
+            <div class="drawer-dropdown">
+              <a class="search-link u-mt10" href="#" data-toggle="dropdown" role="button" aria-expanded="false">
+                提案資料を準備する <span class="icon-right-dir"></span>
+              </a>
+      
+              <div class="popup">
+                <a href="javascript:void(0);" class="u-mt10">
+                  <p class="left">キャンペーン一覧</p>
+                  <div class="right">
+                    <img src="img/svg_icons/icon_step.svg">
+                  </div>
+                </a>
+
+                <a href="javascript:void(0);" class="u-mt10">
+                  <p class="left">サイトデータ</p>
+                  <div class="right">
+                    <img src="img/svg_icons/icon_step.svg">
+                  </div>
+                </a>
+
+                <a href="javascript:void(0);" class="u-mt10">
+                  <p class="left">オプション商品一覧</p>
+                  <div class="right">
+                    <img src="img/svg_icons/icon_step.svg">
+                  </div>
+                </a>
+
+                <a href="javascript:void(0);" class="u-mt10">
+                  <p class="left">スカウト検索</p>
+                  <div class="right">
+                    <img src="img/svg_icons/icon_step.svg">
+                  </div>
+                </a>
+
+                <a href="javascript:void(0);" class="u-mt10">
+                  <p class="left">仮原稿の準備</p>
+                  <div class="right">
+                    <img src="img/svg_icons/icon_step.svg">
+                  </div>
+                </a>
+              </div>
+            </div>
+            
+            <div class="drawer-dropdown">
+              <a class="search-link u-mt10" href="#" data-toggle="dropdown" role="button" aria-expanded="false">
+                申込をする <span class="icon-right-dir"></span>
+              </a>
+      
+              <div class="popup">
+
+                <a href="javascript:void(0);" class="u-mt10">
+                  <p class="left">新規のお申込み</p>
+                  <div class="right">
+                    <img src="img/svg_icons/icon_step.svg">
+                  </div>
+                </a>
+
+                <a href="javascript:void(0);" class="u-mt10">
+                  <p class="left">継続・再契約のお申込み</p>
+                  <div class="right">
+                    <img src="img/svg_icons/icon_step.svg">
+                  </div>
+                </a>
+
+                <a href="javascript:void(0);" class="u-mt10">
+                  <p class="left">オプションのお申込み</p>
+                  <div class="right">
+                    <img src="img/svg_icons/icon_step.svg">
+                  </div>
+                </a>
+
+              </div>
+            </div>
+           
+    
+            <a href="./B1_search_case_sp.html" class="search-link u-mt10">取材・制作を発注する<span
+              class=" icon-right-dir"></span></a>
+    
+            <div class="drawer-dropdown">
+    
+              <a class="search-link u-mt10" href="#" data-toggle="dropdown" role="button" aria-expanded="false">
+                その他各種申請 <span class="icon-right-dir"></span>
+              </a>
+              <div class="popup">
+                
+                <a href="javascript:void(0);" class="u-mt10">
+                  <p class="left">お申込み後〜掲載開始前の場合</p>
+                  <div class="right">
+                    <img src="img/svg_icons/icon_step.svg">
+                  </div>
+                </a>
+                
+                <a href="javascript:void(0);" class="u-mt10">
+                  <p class="left">掲載中の場合</p>
+                  <div class="right">
+                    <img src="img/svg_icons/icon_step.svg">
+                  </div>
+                </a>
+                
+                <a href="javascript:void(0);" class="u-mt10">
+                  <p class="left">企業審査について</p>
+                  <div class="right">
+                    <img src="img/svg_icons/icon_step.svg">
+                  </div>
+                </a>
+
+                <a id="border-bottom" class="left" href="javascript:void(0);" class="u-mt10">
+                  <p class="left">原稿審査について</p>
+                  <div class="right">
+                    <img src="img/svg_icons/icon_step.svg">
+                  </div>
+                </a>
+
+              </div>
+            </div>
+            <a href="#" class="menu-button u-mt60">
+              <span class="icon-users"></span>
+              アカウント管理
+            </a>
+    
+            <a href="A1_login_sp.html" class="menu-button">
+              <span class="icon-lock-open-alt"></span>
+              ログアウト
+            </a>
+            <div class="blank"></div>
+          </div>
+        </nav>
+    </header>
+
+    <main class="l-request-contact-continue">
+      <div class="application-new-inner">
+        <h2 class="title c-fs18b">申込・掲載をする - 申込をする</h2>
+        
+        <div class="application-new-header">
+           <a href="F1_1_application_new.html">
+            <button class="application-content color-white">
+              <span class="c-fs16b">新規</span>
+          </button>
+           </a>
+            <a href="F1_2_request_contact_continue.html">
+              <button class="application-content color-white item-active">
+                <span class="c-fs16b">継続・再契約</span>
+            </button>
+            </a>
+            <a href="F1_3_request_option.html">
+              <button class="application-content color-white">
+                <span class="c-fs16b">オプション</span>
+            </button>
+            </a>
+        </div>
+        <div class="application-new-link u-mt10 u-mb5">
+              <a href="#" class="new-link-element"> 
+                    <img src="img/svg_icons/icon_triangle_right.svg" height="12"> 
+                    <span class="c-fs16b link-underline">お申込書</span>
+              </a>
+            <a href="#" class="new-link-element">
+                <img src="img/svg_icons/icon_triangle_right.svg" height="12"> 
+                <span class="c-fs16b link-underline">掲載期間延⻑</span>
+            </a>
+            <a href="#" class="new-link-element">
+                <img src="img/svg_icons/icon_triangle_right.svg" height="12"> 
+                <span class="c-fs16b link-underline">ダウン無し設定・解除申請</span>
+            </a>
+            <a href="#" class="new-link-element">
+                <img src="img/svg_icons/icon_triangle_right.svg" height="12"> 
+                <span class="c-fs16b link-underline">合同募集を⾏う</span>
+            </a>
+            <a href="#" class="new-link-element">
+                <img src="img/svg_icons/icon_triangle_right.svg" height="12"> 
+                <span class="c-fs16b link-underline">採⽤代⾏を⾏う企業が介⼊する</span>
+            </a>
+            <a href="#" class="new-link-element">
+              <img src="img/svg_icons/icon_triangle_right.svg" height="12"> 
+              <span class="c-fs16b link-underline">キャンセル処理</span>
+            </a>
+            <a href="#" class="new-link-element">
+              <img src="img/svg_icons/icon_triangle_right.svg" height="12"> 
+              <span class="c-fs16b link-underline">イーキャリア管理画⾯登録情報の変更</span>
+            </a>
+        </div>
+        <div class="application-new-form">
+            <div class="new-form-inner">
+              <div class="form-inner-left">
+                <div class="color-navy">
+                  <span class="c-fs30b">お申込書</span><span class="c-fs16b">（パートナー様→<strong>SBHC</strong>用）</span>
+                </div>
+                <div class="link u-mb15 u-mt15">
+                  <img class="u-mr5" src="img/svg_icons/icon_triangle_right.svg" height="12"> 
+                  <a href="#" class="c-fs16n link-underline">入力の手順・注意点はこちら</a>
+                </div>
+                <div class="color-navy left-top">
+                 
+                    <div class="left-top-center">
+                      <div><strong class="c-fs20b">1.</strong></div>
+
+                      <div class="element">
+                        <span class="background-red u-mr10 c-fs12b"><span class="c-fs12b">受付〆切</span></span>
+                        <p class="color-red c-fs16b u-mr30">毎営業日9：00</p>
+                      </div>
+
+                      <div><strong class="c-fs20b"></strong></div>
+
+                      <div class="element">
+                        <span class="background-blue c-fs12b u-mr5">反映</span>
+                        <p class="c-fs16b color-science-blue">毎営業日13：10頃</p>
+                      </div>
+                    </div>
+                   
+                  
+                </div>
+                <div class="color-navy left-top">
+                  <div class="left-top-center">
+
+                    <div><strong class="c-fs20b">2.</strong></div>
+                    <div class="element">
+                      <span class="background-red c-fs12b u-mr10">受付〆切</span>
+                      <p class="color-red c-fs16b u-mr20">毎営業日13：00</p>
+                    </div>
+                    <div><strong class="c-fs20b"></strong></div>
+                    <div class="element">
+                      <span class="background-blue c-fs12b u-mr5">反映</span>
+                      <p class="c-fs16b color-science-blue">毎営業日16：10頃</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+             
+              <div class="form-inner-right">
+                  <div class="step">
+                    <p class="c-fs26b">STEP1</p>
+                    <img class="u-pt10 u-pb10" src="img/svg_icons/icon_triangle_down.svg">
+                    <p class="c-fs26b">STEP2</p>
+                  </div>
+                 
+                  <div class="button" >
+                    <button class="btn-def color-white u-mb20">
+                      <img src="img/svg_icons/icon_download.svg" class="u-mr10" id="icon_img" width="17">
+                      <span class="c-fs14n">書類のダウンロード</span>
+                    </button>
+                    <button class="btn-def color-white u-mt20">
+                      <img src="img/svg_icons/icon_mail.svg" class="u-mr10" id="icon_img_path" width="17">
+                      <span class="c-fs14n">書類（PDF）の提出</span>
+                    </button>
+                   
+                  </div>
+              </div>
+
+            </div>
+        </div>
+        <div class="application-new-form">
+          <div class="new-form-inner">
+            <div class="form-inner-left">
+              <div class="color-navy">
+                <span class="c-fs30b">掲載期間延⻑</span>
+                <p class="c-fs14b send u-mt15 u-mb10">掲載期間を延⻑する場合に提出</p>
+              </div>
+
+              <div class="u-mb20">
+               
+                  <div class="d-flex-left">
+                    <span class="background-red c-fs12b u-mr10">受付〆切</span>
+                    <p class="color-red c-fs16b u-mr20">掲載終了2営業⽇前13︓00</p>
+                  </div>
+                  <div class="d-flex-left u-mt10">
+                    <span class="background-blue c-fs12b u-mr5">反映</span>
+                    <p  class="c-fs16b color-science-blue">翌営業⽇中</p>
+                  </div>
+              </div>
+            </div>
+           
+            <div class="form-inner-right">
+                <div class="step">
+                  <p class="c-fs26b">STEP1</p>
+                  <img class="u-pt10 u-pb10" src="img/svg_icons/icon_triangle_down.svg">
+                  <p class="c-fs26b">STEP2</p>
+                </div>
+               
+                <div class="button" >
+                  <button class="btn-def color-white u-mb20">
+                    <img src="img/svg_icons/icon_download.svg" class="u-mr10" id="icon_img" width="17">
+                    <span class="c-fs14n">書類のダウンロード</span>
+                  </button>
+                  <button class="btn-def color-white u-mt20">
+                    <img src="img/svg_icons/icon_mail.svg" class="u-mr10" id="icon_img_path" width="17">
+                    <span class="c-fs14n">書類（PDF）の提出</span>
+                  </button>
+                 
+                </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="application-new-form">
+          <div class="new-form-inner">
+            <div class="form-inner-left">
+              <div class="color-navy">
+                <span class="c-fs30b">ダウン無し設定・解除申請</span>
+                <p class="c-fs14b send u-mt15 u-mb10">サイト上から求⼈情報を落とすことなく継続掲載する場合に提出</p>
+              </div>
+
+              <div class="u-mb20">
+               
+                  <div class="d-flex-left">
+                    <span class="background-red c-fs12b u-mr10">受付〆切</span>
+                    <p class="color-red c-fs16b u-mr20">設定・解除予定⽇の2営業⽇前13︓00</p>
+                  </div>
+                  <div class="d-flex-left u-mt10">
+                    <span class="background-blue c-fs12b u-mr5">反映</span>
+                    <p  class="c-fs16b color-science-blue">申請⽇中</p>
+                  </div>
+              </div>
+            </div>
+           
+            <div class="form-inner-right">
+                <div class="step">
+                  <p class="c-fs26b">STEP1</p>
+                  <img class="u-pt10 u-pb10" src="img/svg_icons/icon_triangle_down.svg">
+                  <p class="c-fs26b">STEP2</p>
+                </div>
+               
+                <div class="button" >
+                  <button class="btn-def color-white u-mb20">
+                    <img src="img/svg_icons/icon_download.svg" class="u-mr10" id="icon_img" width="17">
+                    <span class="c-fs14n">書類のダウンロード</span>
+                  </button>
+                  <button class="btn-def color-white u-mt20">
+                    <img src="img/svg_icons/icon_mail.svg" class="u-mr10" id="icon_img_path" width="17">
+                    <span class="c-fs14n">書類（PDF）の提出</span>
+                  </button>
+                 
+                </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="application-new-form">
+          <div class="new-form-inner">
+            <div class="form-inner-left">
+              <div class="color-navy">
+                <span class="c-fs30b">合同募集を行う</span>
+                <p class="c-fs14b send u-mt15">グループ企業が合同して掲載する場合に提出</p>
+              </div>
+              <div class="form-inner-center u-mt15">
+                <button class="color-white btn-w146 navy c-fs13b">
+                  <img src="img/svg_icons/icon_search.svg"/> 
+                     掲載イメージ
+                </button>
+              </div>
+              <div class="u-mb20 u-mt20">
+                <img class="u-mr5" src="img/svg_icons/icon_triangle_right.svg" height="12"> 
+                <a href="#" class="c-fs16n link-underline color-navy">合同募集に関する注意点はこちら</a>
+              </div>
+              <div class="u-mb20">
+                  <div class="d-flex-left">
+                    <span class="background-red c-fs12b u-mr10">受付〆切</span>
+                    <p for="company" class="color-red c-fs16b u-mr20">随時</p>
+                  </div>
+                  <div class="d-flex-left u-mt10">
+                    <span class="background-blue c-fs12b u-mr5">反映</span>
+                    <p for="company" class="c-fs16b color-science-blue">半日～1営業日程度</p>
+                  </div>
+              </div>
+            </div>
+
+           
+            <div class="form-inner-right">
+                <div class="step">
+                  <p class="c-fs26b">STEP1</p>
+                  <img class="u-pt10 u-pb10" src="img/svg_icons/icon_triangle_down.svg">
+                  <p class="c-fs26b">STEP2</p>
+                </div>
+               
+                <div class="button">
+                  <button class="btn-def color-white u-mb20">
+                   <img src="img/svg_icons/icon_download.svg" class="u-mr10" id="icon_img" width="17">
+                   <span class="c-fs14n">書類のダウンロード</span>
+                  </button>
+                  <button class="btn-def color-white u-mt20">
+                    <img src="img/svg_icons/icon_mail.svg" class="u-mr10" id="icon_img_path" width="17">
+                    <span class="c-fs14n">書類（PDF）の提出</span>
+                  </button>
+                 
+                </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="application-new-form">
+          <div class="new-form-inner">
+            <div class="form-inner-left">
+              <div class="color-navy">
+                <span class="c-fs30b">採用代行を行う企業が介入する</span>
+                <p class="c-fs14b send u-mt15">掲載企業様と採用事務（応募者管理など）を別企業が行う場合に提出</p>
+              </div>
+              <div class="u-mb15 u-mt15">
+                <img class="u-mr5" src="img/svg_icons/icon_triangle_right.svg" height="12"> 
+                <a href="#" class="c-fs16n link-underline color-navy">原稿表記ルールについて（原稿表記例</a>
+              </div>
+              <div class="u-mb20">
+               
+                  <div class="d-flex-left">
+                    <span class="background-red c-fs12b u-mr10">受付〆切</span>
+                    <p class="color-red c-fs16b u-mr20">随時</p>
+                  </div>
+                  <div class="d-flex-left u-mt10">
+                    <span class="background-blue c-fs12b u-mr5">反映</span>
+                    <p  class="c-fs16b color-science-blue">半日～1営業日程度</p>
+                  </div>
+              </div>
+            </div>
+           
+            <div class="form-inner-right">
+                <div class="step">
+                  <p class="c-fs26b">STEP1</p>
+                  <img class="u-pt10 u-pb10" src="img/svg_icons/icon_triangle_down.svg">
+                  <p class="c-fs26b">STEP2</p>
+                </div>
+               
+                <div class="button" >
+                  <button class="btn-def color-white u-mb20">
+                    <img src="img/svg_icons/icon_download.svg" class="u-mr10" id="icon_img" width="17">
+                    <span class="c-fs14n">書類のダウンロード</span>
+                  </button>
+                  <button class="btn-def color-white u-mt20">
+                    <img src="img/svg_icons/icon_mail.svg" class="u-mr10" id="icon_img_path" width="17">
+                    <span class="c-fs14n">書類（PDF）の提出</span>
+                  </button>
+                 
+                </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="application-new-form">
+          <div class="new-form-inner">
+            <div class="form-inner-left">
+              <div class="color-navy">
+                <span class="c-fs30b">キャンセル処理</span>
+              </div>
+
+              <div class="u-mb20">
+               
+                  <div class="d-flex-left">
+                    <span class="background-red c-fs12b u-mr10">受付〆切</span>
+                    <p class="color-red c-fs16b u-mr20">設定・解除予定⽇の2営業⽇前13︓00</p>
+                  </div>
+                  <div class="d-flex-left u-mt10">
+                    <span class="background-blue c-fs12b u-mr5">反映</span>
+                    <p  class="c-fs16b color-science-blue">申請⽇中</p>
+                  </div>
+              </div>
+            </div>
+           
+            <div class="form-inner-right">
+                <div class="step">
+                  <p class="c-fs26b">STEP1</p>
+                  <img class="u-pt10 u-pb10" src="img/svg_icons/icon_triangle_down.svg">
+                  <p class="c-fs26b">STEP2</p>
+                </div>
+               
+                <div class="button" >
+                  <button class="btn-def color-white u-mb20">
+                    <img src="img/svg_icons/icon_download.svg" class="u-mr10" id="icon_img" width="17">
+                    <span class="c-fs14n">書類のダウンロード</span>
+                  </button>
+                  <button class="btn-def color-white u-mt20">
+                    <img src="img/svg_icons/icon_mail.svg" class="u-mr10" id="icon_img_path" width="17">
+                    <span class="c-fs14n">書類（PDF）の提出</span>
+                  </button>
+                 
+                </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="application-new-form">
+          <div class="new-form-inner">
+            <div class="form-inner-left u-mb20">
+              <div class="color-navy">
+                <span class="c-fs30b">イーキャリア管理画面登録情報の変更</span>
+                <p class="c-fs14b send u-mt15">申込済み企業の登録情報を変更する場合に申請</p>
+              </div>
+            </div>
+            <div class="form-inner-right u-p68">
+              <div class="button" >
+                <button class="btn-def color-white">
+                  <img src="img/svg_icons/icon_screen.svg" class="u-mr10" id="icon_img" width="17">
+                  <span class="c-fs14n">変更手続きはこちら</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+    <div class="footer-link">
+      <a class="ask">
+        <img class="u-mr10" src="img/svg_icons/icon_ask.svg">
+        この画面について
+      </a>
+      <a href="./A2_menu_sp.html" class="p-top-button">
+        <span class="icon-home"></span>
+        トップページへ
+      </a>
+    </div>
+  
+    <footer class="l-footer-bottom">
+      <div class="footer-inner">
+        <p class="copyright">COPYRIGHT &copy; SB Human Capital Corp. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <div class="modal js-modal">
+        <div class="modal__bg js-modal-close"></div>
+        <div class="modal_content_wrapper">
+          <a href="#" class="modal-close-button icon-cancel-circled-1"></a>
+          <div class="modal_content u-wd-632">
+            <h3 class="c-fs16b u-mb20 color-dove-gray">原稿表記ルールについて（原稿表記例）</h3>
+            <div class="text-backward">
+              <p class="c-fs14b">
+                ※原稿表記ルール※
+              </p>
+              <span> 各仕事情報の「応募にあたって・注意事項」欄に、</span> <span class="color-speech-red c-fs14n">採用代行企業名及び採用代行を行っている ことの明記が必須です。</span>
+                  <br>
+                  <br>
+                  
+                  <p>▼原稿表記例▼</p>
+                  <p>================</p>
+                  <p>〔採用事務局より〕</p>
+                  <p>この求人は▲▲▲▲株式会社が採用代行業務を引き受けています。</p>
+                  <p>================</p>
+
+            </div>
+          </div>
+        </div>
+    </div>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js" charset="utf-8"></script>
+
+    <script src="js/modal_sp.js"></script>
+  </body>
+</html>

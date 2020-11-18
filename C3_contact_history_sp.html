@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang='ja'>
+
+  <head>
+    <meta charset='UTF-8'>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <title>過去の履歴を確認する</title>
+    <link rel='stylesheet' href='./css/style_sp.css'>
+    <!-- drawer.css -->
+    <link rel="stylesheet" href="./css/drawer_custom.css">
+
+  </head>
+
+  <body class="drawer drawer--right">
+
+    <header class="l-header">
+      <a href="./A2_menu_sp.html" class="header-inner">
+        <img src="./img/title_logo_sp.png">
+        <span class="c-fs10b color-navy">代理店様専用サイト</span>
+      </a>
+
+      <!-- ハンバーガーメニューボタン -->
+      <button type="button" class="drawer-toggle drawer-hamburger">
+        <span class="sr-only">toggle navigation</span>
+        <span class="drawer-hamburger-icon"></span>
+      </button>
+
+    </header>
+
+    <!-- ハンバーガーメニュー中身 -->
+    <nav class="drawer-nav u-pt60">
+      <div class="l-menu-inner">
+        <div class="company-name c-fs16n u-ml20">SBヒューマンキャピタル株式会社</div>
+        <div class="c-fs14n u-ml20 u-mt5">
+          <span class="user-name">和田 由紀子</span> 様
+        </div>
+
+        <a href="C1_search_company_sp.html" class="search-link u-mt20 u-mb20">提案できる会社・プランを調べる<span
+            class="icon-right-dir"></span></a>
+
+        <a href="C3_contact_history_sp.html" class="c-fs16n u-ml10">└ 過去の履歴を確認する</a>
+
+        <a href="#" class="search-link u-mt20 u-mb60">応募事例・原稿事例を調べる<span class=" icon-right-dir"></span></a>
+
+        <a href="#" class="menu-button">
+          <span class="icon-users"></span>
+          アカウント管理
+        </a>
+
+        <a href="A1_login_sp.html" class="menu-button">
+          <span class="icon-lock-open-alt"></span>
+          ログアウト
+        </a>
+
+      </div>
+    </nav>
+
+    <div class="l-contact-historylist-content">
+
+      <div class="contact-historylist-inner">
+        <div class="search-area">
+          <p class="c-fs15n">提案できる会社・プランを調べる</p>
+          <p class="u-pb35 c-fs18b">過去の履歴を確認する</p>
+          <p>企業名と担当者名で絞り込むことができます。</p>
+          <form class="search-form-area u-mt10 u-mb10">
+            <div class="label-area u-wd-400 u-mb20">
+              <input class="c-h40 u-mr25 main" type="text" value="" placeholder="企業名を入力してください">
+            </div>
+            <div class="input-area">
+              <input id="base" class="c-h40 u-mr25" type="text" value="" placeholder="拠点名を入力してください">
+            </div>
+            <input class="c-h40 btn-def gray" type="submit" value="絞り込む">
+          </form>
+        </div>
+
+        <div class="contact-history-list">
+          <div class="contact-history-list-main">
+
+            <div class="list-title">
+              <div class="title-date">日時</div>
+              <div class="title-person">担当</div>
+              <div class="title-company">企業名</div>
+              <div class="title-base">拠点名</div>
+              <div class="title-propose">提案可否</div>
+              <div class="title-link"></div>
+            </div>
+            <div class="list-content">
+              <a class="list-low bg-red" href="C4_contact_history_detail_ng_sp.html">
+                <div class="low-date">2020.3.5</div>
+                <div class="low-person">田中太郎</div>
+                <div class="low-company">株式会社　〇〇</div>
+                <div class="low-base">東京</div>
+                <div class="low-propose txt-red">NG</div>
+                <div class="icon-right-open txt-red low-link"></div>
+              </a>
+              <a class="list-low bg-red" href="C4_contact_history_detail_ng_sp.html">
+                <div class="low-date">2020.3.5</div>
+                <div class="low-person">田中太郎</div>
+                <div class="low-company">株式会社　〇〇</div>
+                <div class="low-base">東京</div>
+                <div class="low-propose txt-red">NG</div>
+                <div class="icon-right-open txt-red low-link"></div>
+              </a>
+              <a class="list-low bg-blue" href="C4_contact_history_detail_ok_sp.html">
+                <div class="low-date">2020.3.5</div>
+                <div class="low-person">田中太郎</div>
+                <div class="low-company">株式会社　〇〇</div>
+                <div class="low-base">東京</div>
+                <div class="low-propose txt-blue">OK</div>
+                <div class="low-link icon-right-open txt-blue"></div>
+              </a>
+              <a class="list-low bg-blue" href="C4_contact_history_detail_ok_sp.html">
+                <div class="low-date">2020.3.5</div>
+                <div class="low-person">田中太郎</div>
+                <div class="low-company">株式会社　〇〇</div>
+                <div class="low-base">東京</div>
+                <div class="low-propose txt-blue">OK</div>
+                <div class="low-link icon-right-open txt-blue"></div>
+              </a>
+              <a class="list-low bg-blue" href="C4_contact_history_detail_ok_sp.html">
+                <div class="low-date">2020.3.5</div>
+                <div class="low-person">田中太郎</div>
+                <div class="low-company">株式会社　〇〇</div>
+                <div class="low-base">東京</div>
+                <div class="low-propose txt-blue">OK</div>
+                <div class="low-link icon-right-open txt-blue"></div>
+              </a>
+              <a class="list-low bg-red" href="C4_contact_history_detail_ng_sp.html">
+                <div class="low-date">2020.3.5</div>
+                <div class="low-person">田中太郎</div>
+                <div class="low-company">株式会社　〇〇</div>
+                <div class="low-base">東京</div>
+                <div class="low-propose txt-red">NG</div>
+                <div class="icon-right-open txt-red low-link"></div>
+              </a>
+              <a class="list-low bg-red" href="C4_contact_history_detail_ng_sp.html">
+                <div class="low-date">2020.3.5</div>
+                <div class="low-person">田中太郎</div>
+                <div class="low-company">株式会社　〇〇</div>
+                <div class="low-base">ブロードバンドネットワークカンパニー</div>
+                <div class="low-propose txt-red">NG</div>
+                <div class="icon-right-open txt-red low-link"></div>
+              </a>
+              <div class="pagination">
+                <ul>
+                  <li class="align-center u-mr20">
+                    <a href="">
+                      <span class="icon-right-open reverse" style="margin: -5px;"></span>
+                      <span class="icon-right-open reverse"></span>
+                    </a>
+                  </li>
+                  <li class="align-center u-mr15"><a href="" class="icon-right-open reverse"></a></li>
+                  <li class="num u-mr15 active"><a href="">1</a></li>
+                  <li class="num u-mr15"><a href="">2</a></li>
+                  <li class="num u-mr5"><a href="">3</a></li>
+                  <li class="align-center u-ml10"><a href="" class="icon-right-open"></a></li>
+                  <li class="align-center u-ml20">
+                    <a href="">
+                      <span class="icon-right-open" style="margin-right: -5px;"></span>
+                      <span class="icon-right-open"></span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <a href="./A2_menu_sp.html" class="p-top-button">
+      <span class="icon-home"></span>
+      トップページへ
+    </a>
+
+    <footer class="l-footer u-mt15">
+      <div class="footer-inner">
+        <p class="copyright">COPYRIGHT &copy; SB Human Capital Corp. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- iScroll -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+    <!-- drawer.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+
+    <script>
+      $(function () {
+        $('.drawer').drawer();
+      });
+    </script>
+  </body>
+
+</html>
